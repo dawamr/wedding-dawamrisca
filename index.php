@@ -11,7 +11,7 @@
       <meta name="keywords" content="Wedding Sandyta & Al Hindi">
       <meta name="description" content="Dimohon Kehadirannya Bapak / Ibu untuk Menghadiri Acara Pernikahan Kami Yang Berlangsung Pada Hari Minggu, 20 Febuari 2022.">
       <meta property="og:type" content="website">
-      <meta property='og:image' content="/assets/img/foto-siluet.jpg" />
+      <meta property='og:image' content="https://duniavps.com/sendi/assets/img/foto-siluet.jpg" />
       <meta property='og:title' content='Wedding Sandyta & Al Hindi' />
       <meta property="og:url" content="">
       <meta property='og:description' content='Dimohon Kehadirannya Bapak / Ibu untuk Menghadiri Acara Pernikahan Kami Yang Berlangsung Pada Hari Minggu, 20 Febuari 2022.">' />
