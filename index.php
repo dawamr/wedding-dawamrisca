@@ -3,16 +3,16 @@
    <head>
       <!-- Metas -->
       <meta charset="utf-8">
-      <title>Wedding Sandyta & Al Hindi</title>
+      <title>Undangan Untuk <?php $parameterUrl = $_GET['for']; echo $parameterUrl; ?> - Wedding Sandyta & Al Hindi</title>
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <meta content="Wedding Sandyta & Al Hindi" name="author" />
-      <meta name="keywords" content="Wedding Sandyta & Al Hindi">
+      <meta content="Undangan Untuk <?php $parameterUrl = $_GET['for']; echo $parameterUrl; ?> - Wedding Sandyta & Al Hindi" name="author" />
+      <meta name="keywords" content="Undangan Untuk <?php $parameterUrl = $_GET['for']; echo $parameterUrl; ?> - Wedding Sandyta & Al Hindi">
       <meta name="description" content="Dimohon Kehadirannya Bapak / Ibu untuk Menghadiri Acara Pernikahan Kami Yang Berlangsung Pada Hari Minggu, 20 Febuari 2022.">
       <meta property="og:type" content="website">
       <meta property='og:image' content="https://duniavps.com/sendi/assets/img/foto-siluet.jpg" />
-      <meta property='og:title' content='Wedding Sandyta & Al Hindi' />
+      <meta property='og:title' content='Undangan Untuk <?php $parameterUrl = $_GET['for']; echo $parameterUrl; ?> - Wedding Sandyta & Al Hindi' />
       <meta property="og:url" content="">
       <meta property='og:description' content='Dimohon Kehadirannya Bapak / Ibu untuk Menghadiri Acara Pernikahan Kami Yang Berlangsung Pada Hari Minggu, 20 Febuari 2022.">' />
       <link rel="canonical" href="">
@@ -77,7 +77,7 @@
                   <div class="col-12">
                      <h1 class="display-2 font-sambung text-white mb-4">Dyta & Hindi</h1>
                      <p class="font-weight-600 text-white lead mb-5 ">Minggu, 20 Februari 2022<br><span class="font-weight-300">Bintaro, Jakarta Selatan.</span></p>
-                     <h5 class="text-light">Kepada yaitu,</h5>
+                     <h5 class="text-light">Kepada Yang Terhormat,</h5>
                      <h3 class="text-white">
                         <?php
                            $parameterUrl = $_GET['for'];
