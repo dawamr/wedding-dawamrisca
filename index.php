@@ -350,8 +350,8 @@
                         </div><hr>
                         <div class="text-white my-3">
                            <h5 class="text-white font-weight-bold">Transfer</h5>
-                           <p class="mb-0 lead">BCA - 100000000</p>
-                           <p class="">A/N Muhammad Alhindi</p>
+                           <p class="mb-0 lead">BCA - 583598210</p>
+                           <p class="">a/n Muhammad Alhindi</p>
                         </div><hr>
                         <div class="text-white my-3">
                            <h5 class="text-white font-weight-bold">QRIS</h5>
@@ -537,6 +537,11 @@
             </svg>
          </a>
          <!-- End to the top -->
+
+         <audio loop autoplay>
+            <source src="assets/sepanjang-hidup.mp3" type="audio/mp3">
+         </audio>
+
       </div>
       <!-- End wrapper-->
       <!--Javascript-->
@@ -550,6 +555,12 @@
       <script src="js/script.js"></script>
 
       <script>
+         window.addEventListener("DOMContentLoaded", event => {
+            const audio = document.querySelector("audio");
+            audio.volume = 0.4;
+            audio.play();
+         });
+
          /*
             Countdown
          */
