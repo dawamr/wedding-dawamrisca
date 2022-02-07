@@ -1,29 +1,3 @@
-/* 
-
-Foxewedding - Beautiful Wedding html template
-Copyright 2019  www.mutationmedia.net 
-Created by : mutationthemes  
-
-*/
-
-/* Table of Content ================================================== 
-
-1.Preloader
-2.Site wrapper
-3.Hero
-4.Date
-5.Love story
-6.Wedding
-7.Gallery
-8.Gift registry
-9.RSVP
-19.Footer
-11.Miscellaneous
-12.Mediaqueries
-
-
-/*Preloader*/
-
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
 
 .font-sambung{
@@ -82,19 +56,19 @@ Created by : mutationthemes
 
 @keyframes spinner-color {
     0%, 100% {
-        stroke: #e25d5d;
+        stroke: #c8ae96;
     }
     20% {
         stroke: #df6e6e;
     }
     40% {
-        stroke: #e25d5d;
+        stroke: #c8ae96;
     }
     60% {
         stroke: #df6e6e;
     }
     80% {
-        stroke: #e25d5d;
+        stroke: #c8ae96;
     }
 
     
@@ -371,11 +345,11 @@ ul.instafeed-list li a{
 /*Miscellaneous*/
 
 ::-moz-selection {
-    background: #e25d5d;
+    background: #c8ae96;
     color: #ffffff;
 }
- .gradient-overlay:before {
-    background-color: rgba(23,23,38,.6);
+.gradient-overlay:before {
+    background-color: #c8ae96;
     position: absolute;
     top: 0;
     right: 0;
@@ -464,7 +438,7 @@ a,::before
     vertical-align: middle;
     text-align: center;
     color: #fff;
-    background-color: #e25d5d;
+    background-color: #c8ae96;
     width: 2.35rem;
     height: 2.35rem;
     font-size: 0.75rem;
@@ -522,7 +496,7 @@ h1 > a:hover, h2 > a:hover, h3 > a:hover, h4 > a:hover, h5 > a:hover, h6 > a:hov
     background: rgba(255, 255, 255, 0.1) !important;
 }
 .bg-primary-svg {
-  fill: #e25d5d;
+  fill: #c8ae96;
 }
 .bg-secondary-svg {
   fill: #fff9f5;
@@ -552,7 +526,7 @@ h1 > a:hover, h2 > a:hover, h3 > a:hover, h4 > a:hover, h5 > a:hover, h6 > a:hov
   font-family: 'Playfair Display', serif;
 }
 .card.bg-primary{
-  border-color: #e25d5d;
+  border-color: #c8ae96;
 }
 .o-hidden{
   overflow: hidden;

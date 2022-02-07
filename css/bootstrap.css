@@ -162,7 +162,7 @@ sup {
 }
 
 a {
-  color: #e25d5d;
+  color: #c8ae96;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -170,7 +170,7 @@ a {
 }
 
 a:hover {
-  color: #df6e6e;
+  color: #866545;
 }
 
 a:not([href]):not([tabindex]) {
@@ -2515,14 +2515,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #ffffff;
-  background-color: #e35d5d;
-  border-color: #e35d5d;
+  background-color: #a67d56;
+  border-color: #a67d56;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #df6e6e;
-  border-color: #e35d5d;
+  background-color: #866545;
+  border-color: #a67d56;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -2538,8 +2538,8 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
    color: #fff;
-background-color: #df6e6e;
-  border-color: #e35d5d;
+background-color: #866545;
+  border-color: #a67d56;
   
 }
 
@@ -3660,7 +3660,7 @@ tbody.collapse.show {
 
 .custom-control-input:checked ~ .custom-control-label::before {
   color: #fff;
-  background-color: #e25d5d;
+  background-color: #c8ae96;
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
@@ -3747,7 +3747,7 @@ tbody.collapse.show {
 }
 
 .custom-radio .custom-control-input:checked ~ .custom-control-label::before {
-  background-color: #e25d5d;
+  background-color: #c8ae96;
   border: none;
 }
 
@@ -4890,7 +4890,7 @@ border-color: rgba(21, 42, 73, 0.1);
     border-radius: 0.3rem;
     letter-spacing: 0.055rem;
     color: #fff;
-    background-color: #e25d5d;
+    background-color: #c8ae96;
     text-transform: uppercase;
 }
 
@@ -6158,7 +6158,7 @@ button.close {
 }
 
 .bg-primary {
-  background-color: #e25d5d !important;
+  background-color: #c8ae96 !important;
 }
 
 .bg-primary-2 {
@@ -9273,7 +9273,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #e25d5d !important;
+  color: #c8ae96 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
