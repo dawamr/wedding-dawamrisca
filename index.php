@@ -350,9 +350,22 @@
                         </div><hr>
                         <div class="text-white my-3">
                            <h5 class="text-white font-weight-bold">Transfer</h5>
-                           <p class="mb-0 lead">BCA - 583598210</p>
-                           <p class="">a/n Muhammad Alhindi</p>
-                        </div><hr>
+                           <div class="row">
+                              <div class="col-md-6">
+                                 <div class="text-white my-3">
+                                    <p class="mb-0 lead"><span class="font-weight-bold">Mandiri</span> - 1180012557657</p>
+                                    <p class="">a/n Sandyta Nurwarohmah Firmansyah</p>
+                                 </div>
+                              </div>
+                              <div class="col-md-6">
+                              <div class="text-white my-3">
+                                    <p class="mb-0 lead"><span class="font-weight-bold">BNI</span> - 583598210</p>
+                                    <p class="">a/n Muhammad Alhindi</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <hr>
                         <div class="text-white my-3">
                            <h5 class="text-white font-weight-bold">QRIS</h5>
                            <img src="assets/img/qris-code.png" width="200" alt=""/><br>
@@ -537,9 +550,10 @@
             </svg>
          </a>
          <!-- End to the top -->
-
-         <audio loop autoplay>
-            <source src="assets/sepanjang-hidup.mp3" type="audio/mp3">
+         <audio autoplay>
+            <source src="horse.ogg" type="audio/ogg">
+            <source src="https://dnh.my.id/assets/musik.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
          </audio>
 
       </div>
@@ -555,12 +569,6 @@
       <script src="js/script.js"></script>
 
       <script>
-         window.addEventListener("DOMContentLoaded", event => {
-            const audio = document.querySelector("audio");
-            audio.volume = 0.4;
-            audio.play();
-         });
-
          /*
             Countdown
          */
@@ -593,7 +601,7 @@
             if (distance < 0) {
                clearInterval(x);
                document.getElementById("countdown-box").innerHTML =
-                  "<span class='cdi'>Merry Christmas!!</span>";
+                  "<span class='cdi'>Pernikahan Telah Dilaksanakan</span>";
                $(".title").text("");
             }
          }, 1000);
