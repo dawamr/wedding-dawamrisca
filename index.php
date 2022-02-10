@@ -27,7 +27,7 @@
 
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
    </head>
-   <body>
+   <body style="overflow-x: hidden ">
       <!-- Preloader
       <div class="loader">
          <!-- Preloader inner 
@@ -56,7 +56,12 @@
                            echo $parameterUrl;
                         ?>
                      </h3>
-                     <button type="button" class="btn btn-primary" data-dismiss="modal"><i aria-hidden="true" class="far fa-envelope-open"></i>  Buka Undangan</button>
+                     <div class="song">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="togglePlay()"><i aria-hidden="true" class="far fa-envelope-open"></i>  Buka Undangan</button>
+                        <div class="player">
+                           <audio class="audio" src="https://dnh.my.id/assets/musik.mp3" autoplay type="audio" loop=""></audio>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
@@ -144,7 +149,7 @@
                         <div class="countdown row text-center"></div>
                      </div>
                   </div>
-                  <div class="col-md-5 d-flex mb-4 mb-lg-0 " data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="1000">
+                  <div class="col-md-5 d-flex mb-4 mb-lg-0 " data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                      <div class="card card-icon-2 justify-content-between">
                         <img class="" src="assets/img/foto-bingkai.jpg" alt="">
                      </div>
@@ -284,7 +289,7 @@
                      <!-- <h1 class="display-4 text-white">Penutup</h1> -->
                      <p class="lead text-white mb-0">Terukir kesan yang dalam dihati kami apabila Saudara, Kerabat dan Handai Taulan berkenan untuk menyaksikan dan mengiringi, serta memberikan do’a restu kepada putra-putri kami. </p>
                   </div>
-                  <div class="col-md-5" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="1000">
+                  <div class="col-md-5" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                      <small class="text-uppercase mb-5 font-weight-600 text-light upper-letter-space">Kami,</small>
                      <h1 class="display-2 font-sambung text-white mb-4">Dyta & Hindi</h1>
                   </div>
@@ -332,7 +337,7 @@
                                  </div>
                               </div>
                            </div>
-                           <div class="col-md-6" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="1000">
+                           <div class="col-md-6" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                               <div class="col-12 my-5">
                                  <div class="row d-flex align-items-center">
                                     <div class="col-3">
@@ -405,7 +410,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="col-md-5" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="1000">
+                  <div class="col-md-5" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                      <!--Row-->
                      <div class="row justify-content-center">
                         <div class="col">
@@ -577,11 +582,6 @@
             </svg>
          </a>
          <!-- End to the top -->
-         <audio autoplay>
-            <source src="horse.ogg" type="audio/ogg">
-            <source src="https://dnh.my.id/assets/musik.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-         </audio>
 
       </div>
       <!-- End wrapper-->
@@ -653,6 +653,18 @@
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script>
          AOS.init();
+      </script>
+      <script>
+         var pause = document.querySelector(".pause");
+var audio = document.querySelector(".audio");
+
+function togglePlay() {
+	if (audio.paused) {
+		audio.play();
+		pause.innerHTML = "🔇";
+	}
+}
+
       </script>
    </body>
 </html>
