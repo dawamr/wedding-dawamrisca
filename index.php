@@ -452,20 +452,20 @@
                         </div>
                      </div>
                      <!--End row-->
-                     <form method="post" action="send_mail.php">
+                     <form method="post" action="add.php">
                         <div class="form-group">
                            <label >Nama</label>
                            <input name="names" type="text" class="form-control form-control-lg" placeholder="Nama Lengkap / Panggilan" required>
                         </div>
                         <div class="form-group">
                            <label>Pesan</label>
-                           <textarea name="messange" class="form-control" rows="4" placeholder="Pesan Kamu" required></textarea>
+                           <textarea name="messages" class="form-control" rows="4" placeholder="Pesan Kamu" required></textarea>
                         </div>
                         <div class="row">
                            <div class="col">
                               <div class="form-group rounded bg-white p-2 border">
                                  <div class="custom-control custom-radio">
-                                    <input type="radio" id="atttending-yes" value="Hadir" name="atttending" class="custom-control-input">
+                                    <input type="radio" id="atttending-yes" value="Hadir" name="attending" class="custom-control-input">
                                     <label class="custom-control-label" for="atttending-yes">Hadir</label>
                                  </div>
                               </div>
@@ -473,17 +473,35 @@
                            <div class="col">
                               <div class="form-group rounded bg-white p-2 border">
                                  <div class="custom-control custom-radio">
-                                    <input type="radio" id="atttending-no" value="Tidak Hadir" name="atttending" class="custom-control-input">
+                                    <input type="radio" id="atttending-no" value="Tidak Hadir" name="attending" class="custom-control-input">
                                     <label class="custom-control-label" for="atttending-no">Tidak Hadir</label>
                                  </div>
                               </div>
                            </div>
                         </div>
                         <div class="form-group text-center">
-                           <button class="btn btn-lg btn-block btn-primary" type="submit" value="Kirim"> Kirim</button>
+                           <button class="btn btn-lg btn-block btn-primary" type="submit" name="kirimucapan"> Kirim</button>
                            <!-- <small class="mt-2 text-dark-gray opacity-8">You’ll recieve a confirmation email.</small> -->
                         </div>
                      </form>
+                     <h5>Temanmu sudah mengirimkan Ucapan</h5>
+                     <?php
+                     include("etc/koneksi.php"); 
+                     $sql = "SELECT * FROM ucapan";
+                     $query = mysqli_query($db, $sql);
+
+                     while($siswa = mysqli_fetch_array($query)){
+                        echo "<div class='row card my-2 p-3 mb-0'>";
+                        echo "<div class='col-12'>";
+                        echo "<b>".$siswa['names']."</b> <div class='float-right'>".$siswa['attending']."</div>";
+                        echo "";
+                        echo "</div>";
+                        echo "<div class='col-12'>";
+                        echo "<p>".$siswa['messages']."</p>";
+                        echo "</div>"; 
+                        echo "</div>";
+                     }
+                     ?>
                   </div>
                </div>
             </div>
