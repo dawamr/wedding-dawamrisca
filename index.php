@@ -289,7 +289,7 @@
                <div class="row justify-content-between z-index-3 position-relative align-items-center">
                   <div class="col-md-6 mb-3 mb-md-0" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="1000">
                      <!-- <h1 class="display-4 text-white">Penutup</h1> -->
-                     <p class="lead text-white mb-0">Terukir kesan yang dalam dihati kami apabila Saudara, Kerabat dan Handai Taulan berkenan untuk menyaksikan dan mengiringi, serta memberikan do’a restu kepada putra-putri kami. </p>
+                     <p class="lead text-white mb-0">Terukir kesan yang dalam dihati kami apabila Saudara, Kerabat dan Handai Taulan berkenan untuk menyaksikan dan mengiringi, serta memberikan do’a restu kepada kami. </p>
                   </div>
                   <div class="col-md-5" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                      <small class="text-uppercase mb-5 font-weight-600 text-light upper-letter-space">Kami,</small>
