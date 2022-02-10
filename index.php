@@ -3,6 +3,7 @@
    <head>
       <!-- Metas -->
       <meta charset="utf-8">
+      <link rel="shortcut icon" href="https://dnh.my.id/assets/img/foto-thumb.jpg">
       <title>Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo $parameterUrl; ?> - Wedding Sandyta & Brindil</title>
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
