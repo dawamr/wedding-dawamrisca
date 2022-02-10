@@ -617,7 +617,7 @@
                </div>
             </div>
          </section>
-         <h1 class="display-4 font-sambung text-center py-5"><a href="https://duniavps.com" target="_blank">Sandyta & Alhindi</a></h1>
+         <h1 class="display-4 font-sambung text-center" style="padding-bottom: 200px;"><a href="https://duniavps.com" target="_blank">Sandyta & Alhindi</a></h1>
          <!-- <h4 class="">Dyta & Brindil</a></h4> -->
 
          <!--To the top-->
