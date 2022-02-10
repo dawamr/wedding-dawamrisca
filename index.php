@@ -11,7 +11,7 @@
       <meta name="keywords" content="Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo $parameterUrl; ?> - Wedding Sandyta & Brindil">
       <meta name="description" content="Dimohon Kehadirannya Bapak / Ibu untuk Menghadiri Acara Pernikahan Kami Yang Berlangsung Pada Hari Minggu, 20 Febuari 2022.">
       <meta property="og:type" content="website">
-      <meta property='og:image' content="https://duniavps.com/sendi/assets/img/foto-thumb.jpg" />
+      <meta property='og:image' content="https://dnh.my.id/assets/img/foto-thumb.jpg" />
       <meta property='og:title' content='Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo $parameterUrl; ?> - Wedding Sandyta & Brindil' />
       <meta property="og:url" content="">
       <meta property='og:description' content='Dimohon Kehadirannya Bapak / Ibu untuk Menghadiri Acara Pernikahan Kami Yang Berlangsung Pada Hari Minggu, 20 Febuari 2022.' />
