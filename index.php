@@ -101,9 +101,9 @@
          </header>
          <!--End header-->
          <!--Hero section-->
-         <section class="gradient-overlay gradient-overlay-dark kaver" id="home" style="">
-            <img class="bg-image" src="assets/img/1.jpg" alt="">
-            <div class="container" style="min-height: 90vh;">
+         <section class="gradient-overlay gradient-overlay-dark" id="home" style="">
+            <img class="bg-image" src="assets/img/foto-1.jpg" alt="">
+            <div class="container">
                <!--row-->
                <div class="row min-vh-80 align-items-center z-index-2 position-relative text-center">
                   <div class="col-12" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="1000">
@@ -310,6 +310,34 @@
          <section id="mempelai" class="spacer-one-top-lg">
             <!--Container-->
             <div class="container spacer-one-bottom-lg">
+               <div class="spacer-one-bottom-lg">
+                  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <img class="d-block w-100" style="height: 500px; object-fit:cover;" src="assets/img/foto-2.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                           <img class="d-block w-100" style="height: 500px; object-fit:cover;" src="assets/img/foto-bingkai.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                           <img class="d-block w-100" style="height: 500px; object-fit:cover;" src="assets/img/foto-1.jpg" alt="Third slide">
+                        </div>
+                     </div>
+                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                     </a>
+                     <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                     </a>
+                  </div>
+               </div>
                <!--Row-->
                <div class="row justify-content-center align-items-center">
                   <div class="col">
@@ -385,13 +413,15 @@
                            <div class="row">
                               <div class="col-md-6" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                                  <div class="text-white my-3">
+                                    <img src="assets/img/mandiri.png" height="80" alt="">
                                     <p class="mb-0 lead"><span class="font-weight-bold">Mandiri</span> - 1180012557657</p>
                                     <p class="">a/n Sandyta Nurwarohmah Firmansyah</p>
                                  </div>
                               </div>
                               <div class="col-md-6" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                               <div class="text-white my-3">
-                                    <p class="mb-0 lead"><span class="font-weight-bold">BNI</span> - 583598210</p>
+                                 <img src="assets/img/bni.png" height="80" alt="">
+                                    <p class="mb-0 lead"><span class="font-weight-bold">BNI</span> - 0583598210</p>
                                     <p class="">a/n Muhammad Alhindi</p>
                                  </div>
                               </div>
@@ -403,10 +433,10 @@
                            <img src="assets/img/qris-code.png" width="200" alt=""/><br>
                            <a href="assets/img/qris.png" target="_blank" class="btn btn-primary btn-wide-sm btn-sm mt-4 scroll"><i aria-hidden="true" class="fa fa-download"></i> Download Gambar QRIS</a>
                         </div><hr>
-                        <div class="text-white my-3" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
+                        <div class="text-white my-3" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-offset="-10">
                            <h5 class="text-white font-weight-bold">Saweria.co</h5>
-                           <p class="mb-0 lead">Donasikan lewat Saweria</p>
-                           <a href="https://saweria.co/janijack" target="_blank" class="btn btn-primary btn-wide-sm btn-sm mt-4 scroll"><i aria-hidden="true" class="fab fa-telegram"></i> Donasi Disini</a>
+                           <p class="mb-0 lead">Donasikan melalui Saweria</p>
+                           <a href="https://saweria.co/WeddingDytaHindi" target="_blank" class="btn btn-primary btn-wide-sm btn-sm mt-4 scroll"><i aria-hidden="true" class="fab fa-telegram"></i> Donasi Disini</a>
                         </div>
                      </div>
                   </div>
@@ -430,16 +460,11 @@
                            <textarea name="pesan" class="form-control" rows="4" placeholder="Pesan Kamu"></textarea>
                         </div>
                         <div class="row">
-                           <div class="col-12">
-                              <div class="form-group mb-1">
-                                 <label>Berkenan untuk Menyaksikan dan Mengiringi</label>
-                              </div>
-                           </div>
                            <div class="col">
                               <div class="form-group rounded bg-white p-2 border">
                                  <div class="custom-control custom-radio">
                                     <input type="radio" id="atttending-yes" name="atttending" class="custom-control-input">
-                                    <label class="custom-control-label" for="atttending-yes">Ya</label>
+                                    <label class="custom-control-label" for="atttending-yes">Hadir</label>
                                  </div>
                               </div>
                            </div>
@@ -447,7 +472,7 @@
                               <div class="form-group rounded bg-white p-2 border">
                                  <div class="custom-control custom-radio">
                                     <input type="radio" id="atttending-no" name="atttending" class="custom-control-input">
-                                    <label class="custom-control-label" for="atttending-no">Tidak</label>
+                                    <label class="custom-control-label" for="atttending-no">Tidak Hadir</label>
                                  </div>
                               </div>
                            </div>
@@ -567,6 +592,7 @@
                </div>
             </div>
          </section>
+         <h4 class="text-center py-5"><a href="https://duniavps.com" target="_blank">Dyta & Brindil</a></h4>
 
          
          <!--To the top-->
@@ -594,6 +620,8 @@
       <script src="js/placeholders.min.js"></script>
       <script src="js/instafeed.min.js"></script>
       <script src="js/script.js"></script>
+      <!-- <script src="js/util.js"></script> -->
+      <script src="js/carousel.js"></script>
 
       <script>
          $(document).ready(function(){
