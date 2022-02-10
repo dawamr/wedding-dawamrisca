@@ -646,25 +646,25 @@
                <a href="#home" class="col-3 text-center px-2">
                   <div>
                      <img src="assets/img/navbar/home.png" width="40px" alt="">
-                     <p class="small mb-0">Home</p>
+                     <p class="mb-0">Home</p>
                   </div>
                </a>
                <a href="#mempelai" class="col-3 text-center px-2">
                   <div>
                      <img src="assets/img/navbar/love.png" width="40px" alt="">
-                     <p class="small mb-0">Mempelai</p>
+                     <p class="mb-0">Mempelai</p>
                   </div>
                </a>
                <a href="#acara" class="col-3 text-center px-2">
                   <div>
                      <img src="assets/img/navbar/calendar.png" width="40px" alt="">
-                     <p class="small mb-0">Acara</p>
+                     <p class="mb-0">Acara</p>
                   </div>
                </a>
                <a href="#hadiah" class="col-3 text-center px-2">
                   <div>
                      <img src="assets/img/navbar/chat.png" width="40px" alt="">
-                     <p class="small mb-0">Hadiah</p>
+                     <p class="mb-0">Hadiah</p>
                   </div>
                </a>
             </div>
