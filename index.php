@@ -24,6 +24,8 @@
       <link href="css/fonts.css" rel="stylesheet" type="text/css" media="all" />
       <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">
+
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
    </head>
    <body>
       <!-- Preloader
@@ -37,7 +39,31 @@
          <!-- End preloader inner 
       </div>
       <!-- End preloader-->
-      
+
+      <!-- Modal -->
+      <div class="modal fade" id="cover" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="coverLabel" aria-hidden="true">
+      <div class="modal-dialog m-0" style="max-width:unset !important; width: 100% !important; height: 100% !important; transform: unset !important;">
+         <div class="modal-content h-100 bg-primary3">
+            <div class="modal-body d-flex align-items-center justify-content-center">
+               <div class="row align-items-center text-center">
+                  <div class="col-12" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
+                     <h1 class="display-2 font-sambung text-white mb-4">Dyta & Hindi</h1>
+                     <p class="font-weight-600 text-white lead mb-5 ">Minggu, 20 Februari 2022<br><span class="font-weight-300">Bintaro, Jakarta Selatan.</span></p>
+                     <h5 class="text-light">Kepada Yang Terhormat,</h5>
+                     <h3 class="text-white">
+                        <?php
+                           $parameterUrl = (!empty($_GET['for'])) ? $_GET['for'] : "Saudara / Teman Kami";
+                           echo $parameterUrl;
+                        ?>
+                     </h3>
+                     <button type="button" class="btn btn-primary" data-dismiss="modal"><i aria-hidden="true" class="far fa-envelope-open"></i>  Buka Undangan</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+
       <!--Wrapper-->
       <div class="wrapper">
          <!--Header-->
@@ -70,12 +96,12 @@
          </header>
          <!--End header-->
          <!--Hero section-->
-         <section class="gradient-overlay gradient-overlay-dark" id="home">
+         <section class="gradient-overlay gradient-overlay-dark kaver" id="home" style="">
             <img class="bg-image" src="assets/img/1.jpg" alt="">
-            <div class="container">
+            <div class="container" style="min-height: 90vh;">
                <!--row-->
                <div class="row min-vh-80 align-items-center z-index-2 position-relative text-center">
-                  <div class="col-12">
+                  <div class="col-12" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="1000">
                      <h1 class="display-2 font-sambung text-white mb-4">Dyta & Hindi</h1>
                      <p class="font-weight-600 text-white lead mb-5 ">Minggu, 20 Februari 2022<br><span class="font-weight-300">Bintaro, Jakarta Selatan.</span></p>
                      <h5 class="text-light">Kepada Yang Terhormat,</h5>
@@ -85,7 +111,7 @@
                            echo $parameterUrl;
                         ?>
                      </h3>
-                     <a href="#pembukaan" class="btn btn-primary btn-wide-sm btn-sm mt-4 scroll"><i aria-hidden="true" class="far fa-envelope-open"></i>  Lihat Undangan</a>
+                     <a href="#pembukaan" class="btn btn-primary btn-wide-sm btn-sm mt-4 scroll"><i aria-hidden="true" class="fas fa-arrow-down"></i>  Lanjutkan</a>
                   </div>
                </div>
                <!--End row-->
@@ -107,18 +133,18 @@
          </section>
          <!--End hero section-->
          <!--Date section-->
-         <section id="pembukaan" class=" ">
+         <section class=" ">
             <div class="container spacer-double-lg">
-               <div class="row justify-content-lg-between align-items-center">
+               <div class="row justify-content-lg-between align-items-center" id="pembukaan">
                   <div class="col-md-6 mb-5 mb-md-0">
-                     <div class="pr-md-4 text-center">
+                     <div class="pr-md-4 text-center" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="1000"> 
                         <h2 class="font-weight-300 text-dark-gray opacity-8">بِسْمِ اللّهِ الرَّحْمَنِ الرَّحِيْ</h2>
                         <blockquote class="mb-4">“Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan-pasangan dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir.”</blockquote>
                         <p class="lead">- QS Ar-Rum : 21 -</p>
                         <div class="countdown row text-center"></div>
                      </div>
                   </div>
-                  <div class="col-md-5 d-flex mb-4 mb-lg-0 ">
+                  <div class="col-md-5 d-flex mb-4 mb-lg-0 " data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="1000">
                      <div class="card card-icon-2 justify-content-between">
                         <img class="" src="assets/img/foto-bingkai.jpg" alt="">
                      </div>
@@ -136,6 +162,7 @@
 </g>
 </svg>
             </div>
+            
          </section>
          <!--End date section-->
          <section id="mempelai" class=" bg-secondary spacer-one-top-lg">
@@ -144,7 +171,7 @@
                <!--Row-->
                <div class="row justify-content-center align-items-center">
                   <div class="col">
-                     <div class=" text-center mb-5 pb-5">
+                     <div class=" text-center mb-5 pb-5" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                         <h2 class="display-6 mb-4">السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</h2>
                         <p class="w-md-80 mb-2 mx-auto text-dark-gray opacity-8 ">
                            <b>Bapak Tatang Mulyana dan Ibu Karsini</b><br>
@@ -156,7 +183,7 @@
                      </div>
                   </div>
                   <div class="col-md-5 d-flex mb-4 mb-lg-0">
-                     <div class="card card-body justify-content-between bg-primary text-light text-center">
+                     <div class="card card-body justify-content-between bg-primary text-light text-center" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="400">
                         <h4 class="mb-0 text-white">Akad Nikah</h4>
                         <h5 class="mb-2 text-white font-weight-bold">Minggu, 20 Februari 2021 - 09:00</h5>
                         <h4 class="mb-0 text-white">Resepsi</h4>
@@ -196,7 +223,7 @@
                      <div class=" text-center mb-5 pb-5">
                         <h1 class="display-4 mb-0">Save the Date</h1>
                         <p class="w-md-40 mb-0 mx-auto text-dark-gray opacity-8 ">Akad & Resepsi akan dilaksanakan pada</p>
-                        <h3 class="w-md-40 mb-0 mx-auto mt-4 text-white py-4 bg-primary font-weight-bold">20 Febuari 2022</h3>
+                        <h3 class="w-md-40 mb-0 mx-auto mt-4 text-white py-4 bg-primary font-weight-bold" data-aos="flip-right" data-aos-easing="ease-in-out" data-aos-duration="1000">20 Febuari 2022</h3>
                      </div>
                   </div>
                </div>
@@ -253,11 +280,11 @@
          <section id="penutup" class=" bg-primary">
             <div class="container spacer-double-lg">
                <div class="row justify-content-between z-index-3 position-relative align-items-center">
-                  <div class="col-md-6 mb-3 mb-md-0">
+                  <div class="col-md-6 mb-3 mb-md-0" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="1000">
                      <!-- <h1 class="display-4 text-white">Penutup</h1> -->
                      <p class="lead text-white mb-0">Terukir kesan yang dalam dihati kami apabila Saudara, Kerabat dan Handai Taulan berkenan untuk menyaksikan dan mengiringi, serta memberikan do’a restu kepada putra-putri kami. </p>
                   </div>
-                  <div class="col-md-5">
+                  <div class="col-md-5" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="1000">
                      <small class="text-uppercase mb-5 font-weight-600 text-light upper-letter-space">Kami,</small>
                      <h1 class="display-2 font-sambung text-white mb-4">Dyta & Hindi</h1>
                   </div>
@@ -282,12 +309,12 @@
                <div class="row justify-content-center align-items-center">
                   <div class="col">
                      <div class=" text-center mb-5 pb-5">
-                        <h2 class="display-6 mb-2">Protokol Kesehatan</h2>
-                        <p class="w-md-80 mb-2 mx-auto text-dark-gray opacity-8 ">
+                        <h2 class="display-6 mb-2" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">Protokol Kesehatan</h2>
+                        <p class="w-md-80 mb-2 mx-auto text-dark-gray opacity-8" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                            Demi Keamanan dan Kenyamanan Bersama, Para Hadirin Undangan dihimbau untuk mematuhi beberapa peraturan berikut :
                         </p>
                         <div class="row mt-4">
-                           <div class="col-md-6">
+                           <div class="col-md-6" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="1000">
                               <div class="col-12 my-5">
                                  <div class="row d-flex align-items-center">
                                     <div class="col-3">
@@ -305,7 +332,7 @@
                                  </div>
                               </div>
                            </div>
-                           <div class="col-md-6">
+                           <div class="col-md-6" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="1000">
                               <div class="col-12 my-5">
                                  <div class="row d-flex align-items-center">
                                     <div class="col-3">
@@ -334,30 +361,30 @@
             <!--Container-->
             <div id="hadiah" class="container spacer-one-bottom-lg">
                <div class="row justify-content-center">
-                  <div class="col-md-7">
+                  <div class="col-md-7" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="1000">
                      <div class="card card-body justify-content-between bg-primary text-light text-center">
-                        <div class="pb-4 text-center text-white">
+                        <div class="pb-4 text-center text-white" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                            <h1 class="display-5 text-white font-weight-bold">Kado Pernikahan</h1>
                            <p class="w-md-80 mb-2 mx-auto">
                            Kami juga menerima Hadiah dari Bapak/Ibu, Saudara/i
                            </p>
                         </div>
-                        <div class="text-white w-md-80 mx-auto my-3">
+                        <div class="text-white w-md-80 mx-auto my-3" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                            <h5 class="text-white font-weight-bold">Alamat Kirim Hadiah</h5>
                            <p class="mb-0"><b>Nama Penerima :</b> Araf Kintel</p>
                            <p class="mb-0"><b>Alamat :</b> Jl. Guru Saleh RT06/RW10. Bintaro Permai. Kel Bintaro, Kec Pesanggrahan. Jakarta Selatan. 12330. Notes :</b> Rumah Depan Pos Keamanan, Tembok Ondel Ondel</p>
                            <p class="mb-0"><b>No Telpon :</b> 081513717548</p>
                         </div><hr>
                         <div class="text-white my-3">
-                           <h5 class="text-white font-weight-bold">Transfer</h5>
+                           <h5 class="text-white font-weight-bold" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">Transfer</h5>
                            <div class="row">
-                              <div class="col-md-6">
+                              <div class="col-md-6" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                                  <div class="text-white my-3">
                                     <p class="mb-0 lead"><span class="font-weight-bold">Mandiri</span> - 1180012557657</p>
                                     <p class="">a/n Sandyta Nurwarohmah Firmansyah</p>
                                  </div>
                               </div>
-                              <div class="col-md-6">
+                              <div class="col-md-6" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                               <div class="text-white my-3">
                                     <p class="mb-0 lead"><span class="font-weight-bold">BNI</span> - 583598210</p>
                                     <p class="">a/n Muhammad Alhindi</p>
@@ -366,19 +393,19 @@
                            </div>
                         </div>
                         <hr>
-                        <div class="text-white my-3">
+                        <div class="text-white my-3" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                            <h5 class="text-white font-weight-bold">QRIS</h5>
                            <img src="assets/img/qris-code.png" width="200" alt=""/><br>
                            <a href="assets/img/qris.png" target="_blank" class="btn btn-primary btn-wide-sm btn-sm mt-4 scroll"><i aria-hidden="true" class="fa fa-download"></i> Download Gambar QRIS</a>
                         </div><hr>
-                        <div class="text-white my-3">
+                        <div class="text-white my-3" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                            <h5 class="text-white font-weight-bold">Saweria.co</h5>
                            <p class="mb-0 lead">Donasikan lewat Saweria</p>
                            <a href="https://saweria.co/janijack" target="_blank" class="btn btn-primary btn-wide-sm btn-sm mt-4 scroll"><i aria-hidden="true" class="fab fa-telegram"></i> Donasi Disini</a>
                         </div>
                      </div>
                   </div>
-                  <div class="col-md-5">
+                  <div class="col-md-5" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="1000">
                      <!--Row-->
                      <div class="row justify-content-center">
                         <div class="col">
@@ -569,6 +596,9 @@
       <script src="js/script.js"></script>
 
       <script>
+         $(document).ready(function(){
+            $("#cover").modal('show');
+         });
          /*
             Countdown
          */
@@ -619,6 +649,10 @@
             }
          }
 
+      </script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+         AOS.init();
       </script>
    </body>
 </html>
