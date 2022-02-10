@@ -79,7 +79,7 @@
                <!--Container-->
                <div class="container-fluid ">
                   <nav class="navbar navbar-expand-lg header-navbar ml-0 ml-lg-5">
-                     <a class=" navbar-brand navbar-logo" href="#wrapper">
+                     <a class=" navbar-brand navbar-logo" href="#home">
                      <h1 class="font-sambung logo-light text-white">Dyta & Hindi</h1>
                      <h1 class="font-sambung logo-dark">Dyta & Hindi</h1>
                      </a>
@@ -118,7 +118,7 @@
                            echo $parameterUrl;
                         ?>
                      </h3>
-                     <a href="#pembukaan" class="btn btn-primary btn-wide-sm btn-sm mt-4 scroll"><i aria-hidden="true" class="fas fa-arrow-down"></i>  Lanjutkan</a>
+                     <a href="#pembukaan" class="btn btn-primary btn-wide-sm btn-sm mt-4"><i aria-hidden="true" class="fas fa-arrow-down"></i>  Lanjutkan</a>
                   </div>
                </div>
                <!--End row-->
@@ -202,7 +202,7 @@
                            <br>Jakarta Selatan. DKI Jakarta. 12330
                         </p>
                         <h4 class="text-white">Google Maps : Jani Jack</h4>
-                        <a href="https://g.page/RafsanjaniHF?share" target="_blank" class="btn py-3 btn-light btn-wide-sm btn-sm mt-4 scroll"><i aria-hidden="true" class="fa fa-location-arrow"></i>  Lihat Google Maps</a>
+                        <a href="https://g.page/RafsanjaniHF?share" target="_blank" class="btn py-3 btn-light btn-wide-sm btn-sm mt-4"><i aria-hidden="true" class="fa fa-location-arrow"></i>  Lihat Google Maps</a>
                         <!-- <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pernikahan%20Sandyta%20dan%20Hindi&dates=20220220/20220221&details=Pernikahan%20Sandyta%20dan%20Hindi%20di%20Bintaro.&location=Jani%20Jack&trp=true" target="_blank" class="btn py-3 btn-light btn-wide-sm btn-sm mt-4 scroll"><i aria-hidden="true" class="fa fa-calendar"></i>  Tambah Pengingat</a> -->
                      </div>
                   </div>
@@ -255,7 +255,7 @@
                   </div>
                </div>
                <div class="text-center mt-4">
-               <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pernikahan%20Sandyta%20dan%20Hindi&dates=20220220/20220221&details=Pernikahan%20Sandyta%20dan%20Hindi%20di%20Bintaro.&location=Jani%20Jack&trp=true" target="_blank" class="btn py-3 btn-primary btn-wide-sm btn-sm mt-4 scroll"><i aria-hidden="true" class="fa fa-calendar"></i>  Tambah Pengingat</a>
+               <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pernikahan%20Sandyta%20dan%20Hindi&dates=20220220/20220221&details=Pernikahan%20Sandyta%20dan%20Hindi%20di%20Bintaro.&location=Jani%20Jack&trp=true" target="_blank" class="btn py-3 btn-primary btn-wide-sm btn-sm mt-4"><i aria-hidden="true" class="fa fa-calendar"></i>  Tambah Pengingat</a>
 
                </div>
                <!--End row-->
@@ -436,12 +436,12 @@
                         <div class="text-white my-3" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                            <h5 class="text-white font-weight-bold">QRIS</h5>
                            <img src="assets/img/qris-code.png" width="200" alt=""/><br>
-                           <a href="assets/img/qris.png" target="_blank" class="btn btn-primary btn-wide-sm btn-sm mt-4 scroll"><i aria-hidden="true" class="fa fa-download"></i> Download Gambar QRIS</a>
+                           <a href="assets/img/qris.png" target="_blank" class="btn btn-primary btn-wide-sm btn-sm mt-4"><i aria-hidden="true" class="fa fa-download"></i> Download Gambar QRIS</a>
                         </div><hr>
                         <div class="text-white my-3" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-offset="-10">
                            <h5 class="text-white font-weight-bold">Saweria.co</h5>
                            <p class="mb-0 lead">Donasikan melalui Saweria</p>
-                           <a href="https://saweria.co/WeddingDytaHindi" target="_blank" class="btn btn-primary btn-wide-sm btn-sm mt-4 scroll"><i aria-hidden="true" class="fab fa-telegram"></i> Donasi Disini</a>
+                           <a href="https://saweria.co/WeddingDytaHindi" target="_blank" class="btn btn-primary btn-wide-sm btn-sm mt-4"><i aria-hidden="true" class="fab fa-telegram"></i> Donasi Disini</a>
                         </div>
                      </div>
                   </div>
@@ -621,13 +621,13 @@
          <!-- <h4 class="">Dyta & Brindil</a></h4> -->
 
          <!--To the top-->
-         <div class="scroll-to-top scroll bg-dark rounded-circle d-flex justify-content-center align-items-center" style="left: 3rem; cursor:pointer" onclick="togglePlay()">
+         <div class="scroll-to-top bg-dark rounded-circle d-flex justify-content-center align-items-center" style="left: 3rem; cursor:pointer" onclick="togglePlay()">
             <div class="pause">🔇</div>
          </div>
          <!-- End to the top -->
 
          <!--To the top-->
-         <a class="scroll-to-top scroll" href="#wrapper">
+         <a class="scroll-to-top" href="#home">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 273.1091 238.2098" enable-background="new 0 0 273.1091 238.2098" xml:space="preserve">
                <path fill="#E25D5D" d="M136.7428,23.457L136.7428,23.457C105.6324-7.6197,55.2286-7.8699,23.8161,23.0177
                   c-31.6835,31.1545-31.6582,82.277-0.501,113.9287l90.7191,92.1591c11.8174,12.005,31.1293,12.1571,43.1343,0.3396l91.6648-90.2325
