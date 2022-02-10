@@ -456,6 +456,7 @@
                      </div>
                      <!--End row-->
                      <form method="post" action="add.php">
+                           <input name="pengirim" type="text" hidden class="form-control form-control-lg" value="<?php echo $parameterUrl?>">
                         <div class="form-group">
                            <label >Nama</label>
                            <input name="names" type="text" class="form-control form-control-lg" placeholder="Nama Lengkap / Panggilan" required>
@@ -493,6 +494,9 @@
                         include("etc/koneksi.php"); 
                         $sql = "SELECT * FROM ucapan";
                         $query = mysqli_query($db, $sql);
+
+                        // $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami";
+                        //    echo $parameterUrl;
 
                         while($siswa = mysqli_fetch_array($query)){
                            echo "<div class='row card my-2 mx-1 p-3 mb-0'>";
