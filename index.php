@@ -3,16 +3,16 @@
    <head>
       <!-- Metas -->
       <meta charset="utf-8">
-      <title>Undangan Untuk <?php $parameterUrl = (!empty($_GET['for'])) ? $_GET['for'] : "Saudara / Teman Kami"; echo $parameterUrl; ?> - Wedding Sandyta & Brindil</title>
+      <title>Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo $parameterUrl; ?> - Wedding Sandyta & Brindil</title>
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <meta content="Undangan Untuk <?php $parameterUrl = (!empty($_GET['for'])) ? $_GET['for'] : "Saudara / Teman Kami"; echo $parameterUrl; ?> - Wedding Sandyta & Brindil" name="author" />
-      <meta name="keywords" content="Undangan Untuk <?php $parameterUrl = (!empty($_GET['for'])) ? $_GET['for'] : "Saudara / Teman Kami"; echo $parameterUrl; ?> - Wedding Sandyta & Brindil">
+      <meta content="Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo $parameterUrl; ?> - Wedding Sandyta & Brindil" name="author" />
+      <meta name="keywords" content="Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo $parameterUrl; ?> - Wedding Sandyta & Brindil">
       <meta name="description" content="Dimohon Kehadirannya Bapak / Ibu untuk Menghadiri Acara Pernikahan Kami Yang Berlangsung Pada Hari Minggu, 20 Febuari 2022.">
       <meta property="og:type" content="website">
       <meta property='og:image' content="https://duniavps.com/sendi/assets/img/foto-siluet.jpg" />
-      <meta property='og:title' content='Undangan Untuk <?php $parameterUrl = (!empty($_GET['for'])) ? $_GET['for'] : "Saudara / Teman Kami"; echo $parameterUrl; ?> - Wedding Sandyta & Brindil' />
+      <meta property='og:title' content='Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo $parameterUrl; ?> - Wedding Sandyta & Brindil' />
       <meta property="og:url" content="">
       <meta property='og:description' content='Dimohon Kehadirannya Bapak / Ibu untuk Menghadiri Acara Pernikahan Kami Yang Berlangsung Pada Hari Minggu, 20 Febuari 2022.">' />
       <link rel="canonical" href="">
@@ -47,12 +47,13 @@
             <div class="modal-body d-flex align-items-center justify-content-center">
                <div class="row align-items-center text-center">
                   <div class="col-12" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
+                     <img src="assets/img/cover.png" width="340" alt="">
                      <h1 class="display-2 font-sambung text-white mb-4">Dyta & Hindi</h1>
                      <p class="font-weight-600 text-white lead mb-5 ">Minggu, 20 Februari 2022<br><span class="font-weight-300">Bintaro, Jakarta Selatan.</span></p>
                      <h5 class="text-light">Kepada Yang Terhormat,</h5>
                      <h3 class="text-white">
                         <?php
-                           $parameterUrl = (!empty($_GET['for'])) ? $_GET['for'] : "Saudara / Teman Kami";
+                           $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami";
                            echo $parameterUrl;
                         ?>
                      </h3>
@@ -112,7 +113,7 @@
                      <h5 class="text-light">Kepada Yang Terhormat,</h5>
                      <h3 class="text-white">
                         <?php
-                           $parameterUrl = (!empty($_GET['for'])) ? $_GET['for'] : "Saudara / Teman Kami";
+                           $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami";
                            echo $parameterUrl;
                         ?>
                      </h3>
@@ -310,7 +311,7 @@
          <section id="mempelai" class="spacer-one-top-lg">
             <!--Container-->
             <div class="container spacer-one-bottom-lg">
-               <div class="spacer-one-bottom-lg col-md-11 col-xl-9 mx-auto">
+               <div class="spacer-one-bottom-lg col-md-11 col-xl-9 mx-auto" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                      <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
