@@ -310,7 +310,7 @@
          <section id="mempelai" class="spacer-one-top-lg">
             <!--Container-->
             <div class="container spacer-one-bottom-lg">
-               <div class="spacer-one-bottom-lg">
+               <div class="spacer-one-bottom-lg col-md-11 col-xl-9 mx-auto">
                   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                      <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -592,7 +592,8 @@
                </div>
             </div>
          </section>
-         <h4 class="text-center py-5"><a href="https://duniavps.com" target="_blank">Dyta & Brindil</a></h4>
+         <h1 class="display-4 font-sambung text-center py-5"><a href="https://duniavps.com" target="_blank">Sandyta & Alhindi</a></h1>
+         <!-- <h4 class="">Dyta & Brindil</a></h4> -->
 
          
          <!--To the top-->
