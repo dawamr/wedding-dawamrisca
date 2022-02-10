@@ -145,7 +145,7 @@
                <div class="row justify-content-lg-between align-items-center" id="pembukaan">
                   <div class="col-md-6 mb-5 mb-md-0">
                      <div class="pr-md-4 text-center" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="1000"> 
-                        <h2 class="font-weight-300 text-dark-gray opacity-8">بِسْمِ اللّهِ الرَّحْمَنِ الرَّحِيْ</h2>
+                        <h2 class="font-weight-300 text-dark-gray opacity-8">بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ </h2>
                         <blockquote class="mb-4">“Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan-pasangan dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir.”</blockquote>
                         <p class="lead">- QS Ar-Rum : 21 -</p>
                         <div class="countdown row text-center"></div>
@@ -313,6 +313,9 @@
             <!--Container-->
             <div class="container spacer-one-bottom-lg">
                <div class="spacer-one-bottom-lg col-md-11 col-xl-9 mx-auto" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
+               <div class=" text-center mb-5 pb-5">
+                  <h1 class="display-5 mb-0">Gallery</h1>
+               </div>
                   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                      <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -321,10 +324,10 @@
                      </ol>
                      <div class="carousel-inner">
                         <div class="carousel-item active">
-                           <img class="d-block w-100" style="height: 500px; object-fit:cover;" src="assets/img/foto-2.jpg" alt="First slide">
+                           <img class="d-block w-100" style="height: 500px; object-fit:cover;" src="assets/img/foto-bingkai.jpg" alt="Second slide">
                         </div>
                         <div class="carousel-item">
-                           <img class="d-block w-100" style="height: 500px; object-fit:cover;" src="assets/img/foto-bingkai.jpg" alt="Second slide">
+                           <img class="d-block w-100" style="height: 500px; object-fit:cover;" src="assets/img/foto-2.jpg" alt="First slide">
                         </div>
                         <div class="carousel-item">
                            <img class="d-block w-100" style="height: 500px; object-fit:cover;" src="assets/img/foto-1.jpg" alt="Third slide">
@@ -344,7 +347,7 @@
                <div class="row justify-content-center align-items-center">
                   <div class="col">
                      <div class=" text-center mb-5 pb-5">
-                        <h2 class="display-6 mb-2" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">Protokol Kesehatan</h2>
+                        <h2 class="display-5 mb-2" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">Protokol Kesehatan</h2>
                         <p class="w-md-80 mb-2 mx-auto text-dark-gray opacity-8" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                            Demi Keamanan dan Kenyamanan Bersama, Para Hadirin Undangan dihimbau untuk mematuhi beberapa peraturan berikut :
                         </p>
@@ -485,23 +488,25 @@
                         </div>
                      </form>
                      <h5 class="mt-4 font-weight-bold">Temanmu sudah mengirimkan Ucapan</h4>
-                     <?php
-                     include("etc/koneksi.php"); 
-                     $sql = "SELECT * FROM ucapan";
-                     $query = mysqli_query($db, $sql);
+                     <div class="" style="max-height: 530px; overflow-y:auto">
+                        <?php
+                        include("etc/koneksi.php"); 
+                        $sql = "SELECT * FROM ucapan";
+                        $query = mysqli_query($db, $sql);
 
-                     while($siswa = mysqli_fetch_array($query)){
-                        echo "<div class='row card my-2 mx-1 p-3 mb-0'>";
-                        echo "<div class='col-12'>";
-                        echo "<b>".$siswa['names']."</b> <div class='float-right badge'>".$siswa['attending']."</div>";
-                        echo "";
-                        echo "</div>";
-                        echo "<div class='col-12'>";
-                        echo "<p class='mb-1'>".$siswa['messages']."</p>";
-                        echo "</div>"; 
-                        echo "</div>";
-                     }
-                     ?>
+                        while($siswa = mysqli_fetch_array($query)){
+                           echo "<div class='row card my-2 mx-1 p-3 mb-0'>";
+                           echo "<div class='col-12'>";
+                           echo "<b>".$siswa['names']."</b> <div class='float-right badge'>".$siswa['attending']."</div>";
+                           echo "";
+                           echo "</div>";
+                           echo "<div class='col-12'>";
+                           echo "<p class='mb-1'>".$siswa['messages']."</p>";
+                           echo "</div>"; 
+                           echo "</div>";
+                        }
+                        ?>
+                     </div>
                   </div>
                </div>
             </div>
@@ -517,7 +522,7 @@
 </svg>
             </div>
             <div class="svg-decoration-container">
-               <div class="svg-decoration middle-left ">
+               <div class="svg-decoration middle-left " style="z-index: -99;">
                   <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 135.7427 125.4471" enable-background="new 0 0 135.7427 125.4471" xml:space="preserve">
                      <g>
                         <path fill="#E25D5D" d="M46.3709,123.4824c-0.718-1.036-1.9904-1.1435-3.1008-1.5854c-1.2856-0.5117-2.4638-1.1784-3.5942-1.9727
@@ -574,7 +579,7 @@
                      </g>
                   </svg>
                </div>
-               <div class="svg-decoration bottom-right">
+               <div class="svg-decoration bottom-right" style="z-index: -99;">
                   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 61.0903 58.3236" enable-background="new 0 0 61.0903 58.3236" xml:space="preserve">
                      <g>
                         <g>
