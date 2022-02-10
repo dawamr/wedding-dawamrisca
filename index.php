@@ -49,7 +49,7 @@
                <div class="row align-items-center text-center">
                   <div class="col-12" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                      <img src="assets/img/cover.png" width="340" alt="">
-                     <h1 class="display-2 font-sambung text-white mb-4">Dyta & Hindi</h1>
+                     <h1 class="display-4 font-sambung text-white mb-4">Dyta & Hindi</h1>
                      <p class="font-weight-600 text-white lead mb-5 ">Minggu, 20 Februari 2022<br><span class="font-weight-300">Bintaro, Jakarta Selatan.</span></p>
                      <h5 class="text-light">Kepada Yang Terhormat,</h5>
                      <h3 class="text-white">
@@ -58,7 +58,7 @@
                            echo $parameterUrl;
                         ?>
                      </h3>
-                     <div class="song">
+                     <div class="song mb-5 pb-5">
                         <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="togglePlay()"><i aria-hidden="true" class="far fa-envelope-open"></i>  Buka Undangan</button>
                         <div class="player">
                            <audio class="audio" src="https://dnh.my.id/assets/musik.mp3" autoplay type="audio" loop=""></audio>
@@ -639,6 +639,37 @@
             </svg>
          </a>
          <!-- End to the top -->
+
+         <div class="fixed-bottom container d-block d-lg-none">
+         <div class="card mb-3">
+            <div class="row p-3">
+               <a href="#home" class="col-3 text-center px-2">
+                  <div>
+                     <img src="assets/img/navbar/home.png" width="40px" alt="">
+                     <h5 class="mb-0">Home</h5>
+                  </div>
+               </a>
+               <a href="#mempelai" class="col-3 text-center px-2">
+                  <div>
+                     <img src="assets/img/navbar/love.png" width="40px" alt="">
+                     <h5 class="mb-0">Mempelai</h5>
+                  </div>
+               </a>
+               <a href="#pelaksanaan" class="col-3 text-center px-2">
+                  <div>
+                     <img src="assets/img/navbar/calendar.png" width="40px" alt="">
+                     <h5 class="mb-0">Pelaksanaan</h5>
+                  </div>
+               </a>
+               <a href="#hadiah" class="col-3 text-center px-2">
+                  <div>
+                     <img src="assets/img/navbar/chat.png" width="40px" alt="">
+                     <h5 class="mb-0">Hadiah</h5>
+                  </div>
+               </a>
+            </div>
+         </divc>
+      </div>
 
       </div>
       <!-- End wrapper-->
