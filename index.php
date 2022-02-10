@@ -20,7 +20,7 @@
 
       <!-- Css -->
       <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-      <link href="css/main.css" rel="stylesheet" type="text/css" media="all" />
+      <link href="css/styles.css" rel="stylesheet" type="text/css" media="all" />
       <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" media="all" />
       <link href="css/fonts.css" rel="stylesheet" type="text/css" media="all" />
       <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
@@ -79,7 +79,7 @@
                <!--Container-->
                <div class="container-fluid ">
                   <nav class="navbar navbar-expand-lg header-navbar ml-0 ml-lg-5">
-                     <a class=" navbar-brand navbar-logo scroll" href="#wrapper">
+                     <a class=" navbar-brand navbar-logo" href="#wrapper">
                      <h1 class="font-sambung logo-light text-white">Dyta & Hindi</h1>
                      <h1 class="font-sambung logo-dark">Dyta & Hindi</h1>
                      </a>
@@ -88,12 +88,12 @@
                      </button>
                      <div class="nav-menu collapse navbar-collapse navbar-collapse justify-content-end mr-5 ">
                         <ul class=" navbar-nav  header-navbar-nav">
-                           <li><a class=" nav-link scroll" href="#home">Home</a></li>
-                           <li><a class=" nav-link scroll" href="#pembukaan">Pembukaan</a></li>
-                           <li><a class=" nav-link scroll" href="#mempelai">Mempelai</a></li>
-                           <li><a class=" nav-link scroll" href="#pelaksanaan">Pelaksanaan</a></li>
-                           <li><a class=" nav-link scroll" href="#penutup">Pesan Mempelai</a></li>
-                           <li><a class=" nav-link scroll" href="#hadiah">Hadiah Mempelai</a></li>
+                           <li><a class=" nav-link" href="#home">Home</a></li>
+                           <li><a class=" nav-link" href="#pembukaan">Pembukaan</a></li>
+                           <li><a class=" nav-link" href="#mempelai">Mempelai</a></li>
+                           <li><a class=" nav-link" href="#pelaksanaan">Pelaksanaan</a></li>
+                           <li><a class=" nav-link" href="#penutup">Pesan Mempelai</a></li>
+                           <li><a class=" nav-link" href="#hadiah">Hadiah Mempelai</a></li>
                         </ul>
                      </div>
                   </nav>
@@ -140,9 +140,9 @@
          </section>
          <!--End hero section-->
          <!--Date section-->
-         <section class=" ">
+         <section class="" id="pembukaan">
             <div class="container spacer-double-lg">
-               <div class="row justify-content-lg-between align-items-center" id="pembukaan">
+               <div class="row justify-content-lg-between align-items-center">
                   <div class="col-md-6 mb-5 mb-md-0">
                      <div class="pr-md-4 text-center" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="1000"> 
                         <h2 class="font-weight-300 text-dark-gray opacity-8">بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ </h2>
@@ -151,7 +151,7 @@
                         <div class="countdown row text-center"></div>
                      </div>
                   </div>
-                  <div class="col-md-5 d-flex mb-4 mb-lg-0 " data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
+                  <div class="col-md-5 d-flex mb-4 mb-lg-0" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                      <div class="card card-icon-2 justify-content-between">
                         <img class="" src="assets/img/foto-bingkai.jpg" alt="">
                      </div>
@@ -189,7 +189,7 @@
                         <h1 class="font-sambung mb-4 mt-5">Sandyta N.F <span class="text-primary">(Dyta)</span><br>&<br>Muhammad Alhindi, S.T <span class="text-primary">(Brindil)</span></h1>
                      </div>
                   </div>
-                  <div class="col-md-5 d-flex mb-4 mb-lg-0">
+                  <div id="acara" class="col-md-5 d-flex mb-4 mb-lg-0">
                      <div class="card card-body justify-content-between bg-primary text-light text-center" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="400">
                         <h4 class="mb-0 text-white">Akad Nikah</h4>
                         <h5 class="mb-2 text-white font-weight-bold">Minggu, 20 Februari 2021 - 09:00</h5>
@@ -395,9 +395,9 @@
             </div>
          </section>
 
-         <section class="bg-secondary spacer-one-top-lg o-hidden ">
+         <section id="hadiah" class="bg-secondary spacer-one-top-lg o-hidden ">
             <!--Container-->
-            <div id="hadiah" class="container spacer-one-bottom-lg">
+            <div class="container spacer-one-bottom-lg">
                <div class="row justify-content-center">
                   <div class="col-md-7" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="1000">
                      <div class="card card-body justify-content-between bg-primary text-light text-center">
@@ -646,25 +646,25 @@
                <a href="#home" class="col-3 text-center px-2">
                   <div>
                      <img src="assets/img/navbar/home.png" width="40px" alt="">
-                     <h5 class="mb-0">Home</h5>
+                     <p class="small mb-0">Home</p>
                   </div>
                </a>
                <a href="#mempelai" class="col-3 text-center px-2">
                   <div>
                      <img src="assets/img/navbar/love.png" width="40px" alt="">
-                     <h5 class="mb-0">Mempelai</h5>
+                     <p class="small mb-0">Mempelai</p>
                   </div>
                </a>
-               <a href="#pelaksanaan" class="col-3 text-center px-2">
+               <a href="#acara" class="col-3 text-center px-2">
                   <div>
                      <img src="assets/img/navbar/calendar.png" width="40px" alt="">
-                     <h5 class="mb-0">Pelaksanaan</h5>
+                     <p class="small mb-0">Acara</p>
                   </div>
                </a>
                <a href="#hadiah" class="col-3 text-center px-2">
                   <div>
                      <img src="assets/img/navbar/chat.png" width="40px" alt="">
-                     <h5 class="mb-0">Hadiah</h5>
+                     <p class="small mb-0">Hadiah</p>
                   </div>
                </a>
             </div>

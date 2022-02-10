@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 .font-sambung{
     font-family: 'Dancing Script', cursive !important;
 }
@@ -486,7 +490,7 @@ h1 > a:hover, h2 > a:hover, h3 > a:hover, h4 > a:hover, h5 > a:hover, h6 > a:hov
     height: 2.65rem;
     text-align: center;
     right: 2.875rem;
-    bottom: 8.6875rem;
+    bottom: 2.6875rem;
     z-index: 100;
 }
 .bg-icon-primary {
@@ -652,6 +656,15 @@ ul.instafeed-list li{
 
 }
 @media (max-width: 991px) {
+    .scroll-to-top {
+        position: fixed;
+        width: 2.65rem;
+        height: 2.65rem;
+        text-align: center;
+        right: 2.875rem;
+        bottom: 8.6875rem;
+        z-index: 100;
+    }
 
 }
 @media (min-width: 992px) {
