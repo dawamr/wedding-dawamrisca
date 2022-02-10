@@ -9,7 +9,7 @@ if(isset($_POST['kirimucapan'])){
     $pengirim = $_POST['pengirim'];
     $names = $_POST['names'];
     $messages = $_POST['messages'];
-    $attending = $_POST['attending'];
+    $attending = (!empty($_POST['attending'])) ? $_POST['attending'] : "Insyaallah Hadir";
 
     // buat query
     $sql = "INSERT INTO ucapan (pengirim, names, messages, attending) VALUE ('$pengirim', '$names', '$messages', '$attending')";
