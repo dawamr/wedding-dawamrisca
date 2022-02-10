@@ -408,10 +408,12 @@
                            </p>
                         </div>
                         <div class="text-white w-md-80 mx-auto my-3" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
-                           <h5 class="text-white font-weight-bold">Alamat Kirim Hadiah</h5>
-                           <p class="mb-0"><b>Nama Penerima :</b> Araf Kintel</p>
-                           <p class="mb-0"><b>Alamat :</b> Jl. Guru Saleh RT06/RW10. Bintaro Permai. Kel Bintaro, Kec Pesanggrahan. Jakarta Selatan. 12330. Notes :</b> Rumah Depan Pos Keamanan, Tembok Ondel Ondel</p>
-                           <p class="mb-0"><b>No Telpon :</b> 081513717548</p>
+                           <div id="salinAlamat">
+                              <h5 class="text-white font-weight-bold">Alamat Kirim Hadiah</h5>
+                              <p class="mb-0" id="salinAlamat1"><b>Nama Penerima :</b> Araf Kintel <a onclick="copyToClipboard('#salinAlamat1')" class="ml-2" style="cursor: pointer;"><i class="fa fa-copy"></i></a></p>
+                              <p class="mb-0" id="salinAlamat2"><b>Alamat :</b> Jl. Guru Saleh RT06/RW10. Bintaro Permai. Kel Bintaro, Kec Pesanggrahan. Jakarta Selatan. 12330. Notes :</b> Rumah Depan Pos Keamanan, Tembok Ondel Ondel <a onclick="copyToClipboard('#salinAlamat2')" class="ml-2" style="cursor: pointer;"><i class="fa fa-copy"></i></a></p>
+                              <p class="mb-0" id="salinAlamat3"><b>No Telpon :</b> 081513717548 <a onclick="copyToClipboard('#salinAlamat3')" class="ml-2" style="cursor: pointer;"><i class="fa fa-copy"></i></a></p>
+                           </div>
                         </div><hr>
                         <div class="text-white my-3">
                            <h5 class="text-white font-weight-bold" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">Transfer</h5>
@@ -419,14 +421,14 @@
                               <div class="col-md-6" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                                  <div class="text-white my-3">
                                     <img src="assets/img/mandiri.png" height="80" alt="">
-                                    <p class="mb-0 lead"><span class="font-weight-bold">Mandiri</span> - 1180012557657</p>
+                                    <p class="mb-0 lead"><span class="font-weight-bold">Mandiri</span> - <span id="salinRek1">1180012557657</span><a onclick="copyToClipboard('#salinRek1')" class="ml-2" style="font-size:16px; cursor: pointer;"><i class="fa fa-copy"></i></a></p>
                                     <p class="">a/n Sandyta Nurwarohmah Firmansyah</p>
                                  </div>
                               </div>
                               <div class="col-md-6" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                               <div class="text-white my-3">
                                  <img src="assets/img/bni.png" height="80" alt="">
-                                    <p class="mb-0 lead"><span class="font-weight-bold">BNI</span> - 0583598210</p>
+                                    <p class="mb-0 lead"><span class="font-weight-bold">BNI</span> - <span id="salinRek2">0583598210</span><a onclick="copyToClipboard('#salinRek2')" class="ml-2" style="font-size:16px; cursor: pointer;"><i class="fa fa-copy"></i></a></p>
                                     <p class="">a/n Muhammad Alhindi</p>
                                  </div>
                               </div>
@@ -440,8 +442,8 @@
                         </div><hr>
                         <div class="text-white my-3" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-offset="-10">
                            <h5 class="text-white font-weight-bold">Saweria.co</h5>
-                           <p class="mb-0 lead">Donasikan melalui Saweria</p>
-                           <a href="https://saweria.co/WeddingDytaHindi" target="_blank" class="btn btn-primary btn-wide-sm btn-sm mt-4"><i aria-hidden="true" class="fab fa-telegram"></i> Donasi Disini</a>
+                           <!-- <p class="mb-0 lead"></p> -->
+                           <a href="https://saweria.co/WeddingDytaHindi" target="_blank" class="btn btn-primary btn-wide-sm mt-2"><i aria-hidden="true" class="fab fa-telegram"></i> Melalui Saweria</a>
                         </div>
                      </div>
                   </div>
@@ -750,19 +752,28 @@
       </script>
       <script>
          var pause = document.querySelector(".pause");
-var audio = document.querySelector(".audio");
+         var audio = document.querySelector(".audio");
 
-function togglePlay() {
-	if (audio.paused) {
-		audio.play();
-		pause.innerHTML = "🔇";
-	} else {
-		audio.pause();
-		pause.innerHTML = "🔊";
-		pause.style.color = " #848484";
-	}
-}
-
+         function togglePlay() {
+            if (audio.paused) {
+               audio.play();
+               pause.innerHTML = "🔇";
+            } else {
+               audio.pause();
+               pause.innerHTML = "🔊";
+               pause.style.color = " #848484";
+            }
+         }
+      </script>
+      <script>
+         function copyToClipboard(element) {
+         var $temp = $("<input>");
+         $("body").append($temp);
+         $temp.val($(element).text()).select();
+         document.execCommand("copy");
+         $temp.remove();
+         alert ('Berhasil Disalin');
+         }
       </script>
    </body>
 </html>
