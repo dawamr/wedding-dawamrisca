@@ -473,8 +473,8 @@
                            <div class="col">
                               <div class="form-group rounded bg-white p-2 border">
                                  <div class="custom-control custom-radio">
-                                    <input type="radio" id="atttending-no" value="Tidak Hadir" name="attending" class="custom-control-input">
-                                    <label class="custom-control-label" for="atttending-no">Tidak Hadir</label>
+                                    <input type="radio" id="atttending-no" value="Insyaallah Hadir" name="attending" class="custom-control-input">
+                                    <label class="custom-control-label" for="atttending-no">Insyaallah Hadir</label>
                                  </div>
                               </div>
                            </div>
@@ -484,20 +484,20 @@
                            <!-- <small class="mt-2 text-dark-gray opacity-8">You’ll recieve a confirmation email.</small> -->
                         </div>
                      </form>
-                     <h5>Temanmu sudah mengirimkan Ucapan</h5>
+                     <h5 class="mt-4 font-weight-bold">Temanmu sudah mengirimkan Ucapan</h4>
                      <?php
                      include("etc/koneksi.php"); 
                      $sql = "SELECT * FROM ucapan";
                      $query = mysqli_query($db, $sql);
 
                      while($siswa = mysqli_fetch_array($query)){
-                        echo "<div class='row card my-2 p-3 mb-0'>";
+                        echo "<div class='row card my-2 mx-1 p-3 mb-0'>";
                         echo "<div class='col-12'>";
-                        echo "<b>".$siswa['names']."</b> <div class='float-right'>".$siswa['attending']."</div>";
+                        echo "<b>".$siswa['names']."</b> <div class='float-right badge'>".$siswa['attending']."</div>";
                         echo "";
                         echo "</div>";
                         echo "<div class='col-12'>";
-                        echo "<p>".$siswa['messages']."</p>";
+                        echo "<p class='mb-1'>".$siswa['messages']."</p>";
                         echo "</div>"; 
                         echo "</div>";
                      }
@@ -616,17 +616,9 @@
          <!-- <h4 class="">Dyta & Brindil</a></h4> -->
 
          <!--To the top-->
-         <a class="scroll-to-top scroll" style="left: 3rem;" href="#" onc>
-            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 273.1091 238.2098" enable-background="new 0 0 273.1091 238.2098" xml:space="preserve">
-               <path fill="#E25D5D" d="M136.7428,23.457L136.7428,23.457C105.6324-7.6197,55.2286-7.8699,23.8161,23.0177
-                  c-31.6835,31.1545-31.6582,82.277-0.501,113.9287l90.7191,92.1591c11.8174,12.005,31.1293,12.1571,43.1343,0.3396l91.6648-90.2325
-                  c31.6726-31.1777,32.5645-83.0754,1.4308-114.7912C219.1893-7.2342,168.3452-7.6516,136.7428,23.457z" />
-               <path fill="#FFFFFF" d="M110.7149,123.5662l-2.9542-2.9542c-1.2509-1.2509-1.2509-3.2736,0-4.5112l25.8562-25.8695
-                  c1.2509-1.2509,3.2736-1.2509,4.5112,0l25.8562,25.8562c1.2509,1.2509,1.2509,3.2736,0,4.5112l-2.9542,2.9542
-                  c-1.2642,1.2642-3.3268,1.2376-4.5644-0.0532l-15.2635-16.0221v38.2454c0,1.7699-1.4239,3.1938-3.1938,3.1938H133.75
-                  c-1.7699,0-3.1938-1.4239-3.1938-3.1938v-38.2454l-15.2769,16.0354C114.0418,124.8171,111.9791,124.8437,110.7149,123.5662z" />
-            </svg>
-         </a>
+         <div class="scroll-to-top scroll bg-dark rounded-circle d-flex justify-content-center align-items-center" style="left: 3rem; cursor:pointer" onclick="togglePlay()">
+            <div class="pause">🔇</div>
+         </div>
          <!-- End to the top -->
 
          <!--To the top-->
@@ -724,6 +716,10 @@ function togglePlay() {
 	if (audio.paused) {
 		audio.play();
 		pause.innerHTML = "🔇";
+	} else {
+		audio.pause();
+		pause.innerHTML = "🔊";
+		pause.style.color = " #848484";
 	}
 }
 
