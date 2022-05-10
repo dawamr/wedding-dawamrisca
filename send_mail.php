@@ -2,7 +2,7 @@
     ini_set( 'display_errors', 1 );   
     error_reporting( E_ALL );    
     $from = "ucapan@dnh.my.id";    
-    $to = "araf235@gmail.com";    
+    $to = "dawamrisca@gmail.com";    
     $subject = "Checking PHP mail";    
     $message = "PHP mail berjalan dengan baik";   
     $headers = "From:" . $from;    
