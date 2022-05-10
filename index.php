@@ -4,16 +4,16 @@
       <!-- Metas -->
       <meta charset="utf-8">
       <link rel="shortcut icon" href="assets/img/foto-thumb.jpg">
-      <title>Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo $parameterUrl; ?> - Wedding Sandyta & Brindil</title>
+      <title>Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo ucwords($parameterUrl); ?> - Wedding Sandyta & Brindil</title>
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <meta content="Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo $parameterUrl; ?> - Wedding Sandyta & Brindil" name="author" />
-      <meta name="keywords" content="Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo $parameterUrl; ?> - Wedding Sandyta & Brindil">
+      <meta content="Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo ucwords($parameterUrl); ?> - Wedding Sandyta & Brindil" name="author" />
+      <meta name="keywords" content="Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo ucwords($parameterUrl); ?> - Wedding Sandyta & Brindil">
       <meta name="description" content="Dimohon Kehadirannya Bapak / Ibu untuk Menghadiri Acara Pernikahan Kami Yang Berlangsung Pada Hari Minggu, 20 Febuari 2022.">
       <meta property="og:type" content="website">
       <meta property='og:image' content="assets/img/foto-thumb.jpg" />
-      <meta property='og:title' content='Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo $parameterUrl; ?> - Wedding Sandyta & Brindil' />
+      <meta property='og:title' content='Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo ucwords($parameterUrl); ?> - Wedding Sandyta & Brindil' />
       <meta property="og:url" content="">
       <meta property='og:description' content='Dimohon Kehadirannya Bapak / Ibu untuk Menghadiri Acara Pernikahan Kami Yang Berlangsung Pada Hari Minggu, 20 Febuari 2022.' />
       <link rel="canonical" href="">
@@ -55,11 +55,11 @@
                      <h3 class="text-white">
                         <?php
                            $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami";
-                           echo $parameterUrl;
+                           echo ucwords($parameterUrl);
                         ?>
                      </h3>
                      <div class="song mb-5 pb-5">
-                        <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="togglePlay()"><i aria-hidden="true" class="far fa-envelope-open"></i>  Buka Undangan</button>
+                        <button type="button" class="btn btn-primary" onclick="togglePlay()"><i aria-hidden="true" class="far fa-envelope-open"></i>  Buka Undangan</button>
                         <div class="player">
                            <audio class="audio" src="assets/musik.mp3" autoplay type="audio" loop=""></audio>
                         </div>
@@ -115,7 +115,7 @@
                      <h3 class="text-white">
                         <?php
                            $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami";
-                           echo $parameterUrl;
+                           echo ucwords($parameterUrl);
                         ?>
                      </h3>
                      <a href="#pembukaan" class="btn btn-primary btn-wide-sm btn-sm mt-4"><i aria-hidden="true" class="fas fa-arrow-down"></i>  Lanjutkan</a>
@@ -459,7 +459,7 @@
                      </div>
                      <!--End row-->
                      <form method="post" action="add.php">
-                           <input name="pengirim" type="text" hidden class="form-control form-control-lg" value="<?php echo $parameterUrl?>">
+                           <input name="pengirim" type="text" hidden class="form-control form-control-lg" value="<?php echo ucwords($parameterUrl)?>">
                         <div class="form-group">
                            <label >Nama</label>
                            <input name="names" type="text" class="form-control form-control-lg" placeholder="Nama Lengkap / Panggilan" required>
@@ -499,7 +499,7 @@
                         $query = mysqli_query($db, $sql);
 
                         // $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami";
-                        //    echo $parameterUrl;
+                        //    echo ucwords($parameterUrl);
 
                         while($siswa = mysqli_fetch_array($query)){
                            echo "<div class='row card my-2 mx-1 p-3 mb-0'>";
@@ -748,6 +748,7 @@
 
       </script>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
       <script>
          AOS.init();
       </script>
@@ -756,6 +757,19 @@
          var audio = document.querySelector(".audio");
 
          function togglePlay() {
+            Swal.fire({
+               title: "Hai <?= ucwords($parameterUrl) ?>, Selamat Berkunjung!",
+               text: 'Undangan bisa dibuka tanggal 15 Mei 2022, Dituggu ya🥰',
+               icon: 'info',
+               confirmButtonText: 'Atur Pengingat!'
+            }).then((result) => {
+               if (result.isConfirmed) {
+                  location.href = "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pernikahan%20Dawam%20dan%20Risca&dates=20220515/20220516&details=Pernikahan%20Dawam%20dan%20Risca%20di%20Banjar.&location=Jl%20Dewi%20Sartika%20Banjar&trp=true"
+               }
+            })
+            
+            return false;
+
             if (audio.paused) {
                audio.play();
                pause.innerHTML = "🔇";
