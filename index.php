@@ -59,7 +59,7 @@
                         ?>
                      </h3>
                      <div class="song mb-5 pb-5">
-                        <button type="button" class="btn btn-primary" onclick="togglePlay()"><i aria-hidden="true" class="far fa-envelope-open"></i>  Buka Undangan</button>
+                        <button type="button" class="btn btn-primary"  data-dismiss="modal" onclick="togglePlay()"><i aria-hidden="true" class="far fa-envelope-open"></i>  Buka Undangan</button>
                         <div class="player">
                            <audio class="audio" src="assets/musik.mp3" autoplay type="audio" loop=""></audio>
                         </div>
@@ -104,7 +104,7 @@
          <!--End header-->
          <!--Hero section-->
          <section class="gradient-overlay gradient-overlay-dark" id="home" style="">
-            <img class="bg-image" src="assets/img/PicsArt_05-09-11.34.49.jpg" alt="">
+            <img class="bg-image" src="assets/img/PicsArt_05-10-05.03.05.jpg" alt="">
             <div class="container">
                <!--row-->
                <div class="row min-vh-80 align-items-center z-index-2 position-relative text-center">
@@ -329,7 +329,7 @@
                            <img class="d-block w-100" style="height: 500px; object-fit:cover;" src="assets/img/PicsArt_05-08-02.40.58-min.jpg" alt="First slide">
                         </div>
                         <div class="carousel-item">
-                           <img class="d-block w-100" style="height: 500px; object-fit:cover;" src="assets/img/PicsArt_05-09-11.34.49.jpg" alt="Third slide">
+                           <img class="d-block w-100" style="height: 500px; object-fit:cover;" src="assets/img/PicsArt_05-10-05.04.02.jpg" alt="Third slide">
                         </div>
                      </div>
                      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -757,18 +757,18 @@
          var audio = document.querySelector(".audio");
 
          function togglePlay() {
-            Swal.fire({
-               title: "Hai <?= ucwords($parameterUrl) ?>, Selamat Berkunjung!",
-               text: 'Undangan bisa dibuka tanggal 15 Mei 2022, Dituggu ya🥰',
-               icon: 'info',
-               confirmButtonText: 'Atur Pengingat!'
-            }).then((result) => {
-               if (result.isConfirmed) {
-                  location.href = "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pernikahan%20Dawam%20dan%20Risca&dates=20220515/20220516&details=Pernikahan%20Dawam%20dan%20Risca%20di%20Banjar.&location=Jl%20Dewi%20Sartika%20Banjar&trp=true"
-               }
-            })
+            // Swal.fire({
+            //    title: "Hai <?= ucwords($parameterUrl) ?>, Selamat Berkunjung!",
+            //    text: 'Undangan bisa dibuka tanggal 15 Mei 2022, Dituggu ya🥰',
+            //    icon: 'info',
+            //    confirmButtonText: 'Atur Pengingat!'
+            // }).then((result) => {
+            //    if (result.isConfirmed) {
+            //       location.href = "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pernikahan%20Dawam%20dan%20Risca&dates=20220515/20220516&details=Pernikahan%20Dawam%20dan%20Risca%20di%20Banjar.&location=Jl%20Dewi%20Sartika%20Banjar&trp=true"
+            //    }
+            // })
             
-            return false;
+            // return false;
 
             if (audio.paused) {
                audio.play();
