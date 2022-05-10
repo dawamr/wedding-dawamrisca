@@ -3,7 +3,7 @@
    <head>
       <!-- Metas -->
       <meta charset="utf-8">
-      <link rel="shortcut icon" href="https://dnh.my.id/assets/img/foto-thumb.jpg">
+      <link rel="shortcut icon" href="assets/img/foto-thumb.jpg">
       <title>Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo $parameterUrl; ?> - Wedding Sandyta & Brindil</title>
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,7 @@
       <meta name="keywords" content="Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo $parameterUrl; ?> - Wedding Sandyta & Brindil">
       <meta name="description" content="Dimohon Kehadirannya Bapak / Ibu untuk Menghadiri Acara Pernikahan Kami Yang Berlangsung Pada Hari Minggu, 20 Febuari 2022.">
       <meta property="og:type" content="website">
-      <meta property='og:image' content="https://dnh.my.id/assets/img/foto-thumb.jpg" />
+      <meta property='og:image' content="assets/img/foto-thumb.jpg" />
       <meta property='og:title' content='Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo $parameterUrl; ?> - Wedding Sandyta & Brindil' />
       <meta property="og:url" content="">
       <meta property='og:description' content='Dimohon Kehadirannya Bapak / Ibu untuk Menghadiri Acara Pernikahan Kami Yang Berlangsung Pada Hari Minggu, 20 Febuari 2022.' />
@@ -49,8 +49,8 @@
                <div class="row align-items-center text-center">
                   <div class="col-12" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                      <img src="assets/img/cover.png" width="340" alt="">
-                     <h1 class="display-4 font-sambung text-white mb-4">Dyta & Hindi</h1>
-                     <p class="font-weight-600 text-white lead mb-5 ">Minggu, 20 Februari 2022<br><span class="font-weight-300">Bintaro, Jakarta Selatan.</span></p>
+                     <h1 class="display-4 font-sambung text-white mb-4">Dawam & Risca</h1>
+                     <p class="font-weight-600 text-white lead mb-5 ">Minggu, 15 Mei 2022<br><span class="font-weight-300">Parunglesang, Kota Banjar.</span></p>
                      <h5 class="text-light">Kepada Yang Terhormat,</h5>
                      <h3 class="text-white">
                         <?php
@@ -61,7 +61,7 @@
                      <div class="song mb-5 pb-5">
                         <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="togglePlay()"><i aria-hidden="true" class="far fa-envelope-open"></i>  Buka Undangan</button>
                         <div class="player">
-                           <audio class="audio" src="https://dnh.my.id/assets/musik.mp3" autoplay type="audio" loop=""></audio>
+                           <audio class="audio" src="assets/musik.mp3" autoplay type="audio" loop=""></audio>
                         </div>
                      </div>
                   </div>
@@ -80,8 +80,8 @@
                <div class="container-fluid ">
                   <nav class="navbar navbar-expand-lg header-navbar ml-0 ml-lg-5">
                      <a class=" navbar-brand navbar-logo" href="#home">
-                     <h1 class="font-sambung logo-light text-white">Dyta & Hindi</h1>
-                     <h1 class="font-sambung logo-dark">Dyta & Hindi</h1>
+                     <h1 class="font-sambung logo-light text-white">Dawam & Risca</h1>
+                     <h1 class="font-sambung logo-dark">Dawam & Risca</h1>
                      </a>
                      <button class="navbar-toggler btn-navbar-toggler" type="button" data-toggle="collapse" data-target=".nav-menu" aria-expanded="true" aria-label="Toggle navigation">
                      <span class="fa fa-bars"></span>
@@ -104,13 +104,13 @@
          <!--End header-->
          <!--Hero section-->
          <section class="gradient-overlay gradient-overlay-dark" id="home" style="">
-            <img class="bg-image" src="assets/img/foto-1.jpg" alt="">
+            <img class="bg-image" src="assets/img/PicsArt_05-09-11.34.49.jpg" alt="">
             <div class="container">
                <!--row-->
                <div class="row min-vh-80 align-items-center z-index-2 position-relative text-center">
                   <div class="col-12" data-aos="fade-right" data-aos-easing="ease-in-out" data-aos-duration="1000">
-                     <h1 class="display-2 font-sambung text-white mb-4">Dyta & Hindi</h1>
-                     <p class="font-weight-600 text-white lead mb-5 ">Minggu, 20 Februari 2022<br><span class="font-weight-300">Bintaro, Jakarta Selatan.</span></p>
+                     <h1 class="display-2 font-sambung text-white mb-4">Dawam & Risca</h1>
+                     <p class="font-weight-600 text-white lead mb-5 ">Minggu, 15 Mei 2022<br><span class="font-weight-300">Parunglesang, Kota Banjar.</span></p>
                      <h5 class="text-light">Kepada Yang Terhormat,</h5>
                      <h3 class="text-white">
                         <?php
@@ -153,7 +153,7 @@
                   </div>
                   <div class="col-md-5 d-flex mb-4 mb-lg-0" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                      <div class="card card-icon-2 justify-content-between">
-                        <img class="" src="assets/img/foto-bingkai.jpg" alt="">
+                        <img class="" src="assets/img/PicsArt_05-09-11.45.14.jpg" alt="">
                      </div>
                   </div>
                </div>
@@ -181,29 +181,28 @@
                      <div class=" text-center mb-5 pb-5" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                         <h2 class="display-6 mb-4">السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</h2>
                         <p class="w-md-80 mb-2 mx-auto text-dark-gray opacity-8 ">
-                           <b>Bapak Tatang Mulyana dan Ibu Karsini</b><br>
+                           <b>Bapak Eko Jupriyanto dan Ibu Sularmi</b><br>
                            Bersama dengan<br>
-                           <b>Bapak Cholid dan Ibu Puji Astuti</b><br>
+                           <b>Bapak Dede Herdi dan Ibu Lulu Sulastri</b><br>
                            Memohon doa restu untuk menikahkan putra dan putri kami:<br>
                         </p>
-                        <h1 class="font-sambung mb-4 mt-5">Sandyta N.F <span class="text-primary">(Dyta)</span><br>&<br>Muhammad Alhindi, S.T <span class="text-primary">(Brindil)</span></h1>
+                        <h1 class="font-sambung mb-4 mt-5">Dawam Rajaa H<span class="text-primary">(Dawam)</span><br>&<br>Risca Rezky A <span class="text-primary">(Risca)</span></h1>
                      </div>
                   </div>
                   <div id="acara" class="col-md-5 d-flex mb-4 mb-lg-0">
                      <div class="card card-body justify-content-between bg-primary text-light text-center" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="400">
                         <h4 class="mb-0 text-white">Akad Nikah</h4>
-                        <h5 class="mb-2 text-white font-weight-bold">Minggu, 20 Februari 2021 - 09:00</h5>
+                        <h5 class="mb-2 text-white font-weight-bold">Minggu, 15 Mei 2022 - 09:00</h5>
                         <h4 class="mb-0 text-white">Resepsi</h4>
-                        <h5 class="mb-5 text-white font-weight-bold">Minggu, 20 Februari 2021 - 11:00 - Selesai</h5>
+                        <h5 class="mb-5 text-white font-weight-bold">Minggu, 15 Mei 2022 - 11:00 - Selesai</h5>
                         <h5 class="text-white font-weight-bold">Lokasi</h5>
                         <h5 class="text-light font-weight-bold">Kediaman Mempelai Wanita</h5>
                         <p class="text-align-center text-white">
-                           Jl. Guru Saleh RT06/RW10. Bintaro Permai. Kel Bintaro, Kec Pesanggrahan
-                           <br>Jakarta Selatan. DKI Jakarta. 12330
+                           Jl. Dewi Sartika, Rt 02/08, Parunglesang
+                           <br>Kec. Banjar, Kota Banjar 46311
                         </p>
-                        <h4 class="text-white">Google Maps : Jani Jack</h4>
-                        <a href="https://g.page/RafsanjaniHF?share" target="_blank" class="btn py-3 btn-light btn-wide-sm btn-sm mt-4"><i aria-hidden="true" class="fa fa-location-arrow"></i>  Lihat Google Maps</a>
-                        <!-- <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pernikahan%20Sandyta%20dan%20Hindi&dates=20220220/20220221&details=Pernikahan%20Sandyta%20dan%20Hindi%20di%20Bintaro.&location=Jani%20Jack&trp=true" target="_blank" class="btn py-3 btn-light btn-wide-sm btn-sm mt-4 scroll"><i aria-hidden="true" class="fa fa-calendar"></i>  Tambah Pengingat</a> -->
+                        <a href="https://s.id/loc-gangstroberry" target="_blank" class="btn py-3 btn-light btn-wide-sm btn-sm mt-4"><i aria-hidden="true" class="fa fa-location-arrow"></i>  Lihat Google Maps</a>
+                        <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pernikahan%20Dawam%20dan%20Risca&dates=20220515/20220516&details=Pernikahan%20Dawam%20dan%20Risca%20di%20Banjar.&location=Jl%20Dewi%20Sartika%20Banjar&trp=true" target="_blank" class="btn py-3 btn-light btn-wide-sm btn-sm mt-4 scroll"><i aria-hidden="true" class="fa fa-calendar"></i>  Tambah Pengingat</a>
                      </div>
                   </div>
                </div>
@@ -230,7 +229,7 @@
                      <div class=" text-center mb-5 pb-5">
                         <h1 class="display-4 mb-0">Save the Date</h1>
                         <p class="w-md-40 mb-0 mx-auto text-dark-gray opacity-8 ">Akad & Resepsi akan dilaksanakan pada</p>
-                        <h3 class="w-md-40 mb-0 mx-auto mt-4 text-white py-4 bg-primary font-weight-bold" data-aos="flip-right" data-aos-easing="ease-in-out" data-aos-duration="1000">20 Febuari 2022</h3>
+                        <h3 class="w-md-40 mb-0 mx-auto mt-4 text-white py-4 bg-primary font-weight-bold" data-aos="flip-right" data-aos-easing="ease-in-out" data-aos-duration="1000">15 Mei 2022</h3>
                      </div>
                   </div>
                </div>
@@ -255,7 +254,7 @@
                   </div>
                </div>
                <div class="text-center mt-4">
-               <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pernikahan%20Sandyta%20dan%20Hindi&dates=20220220/20220221&details=Pernikahan%20Sandyta%20dan%20Hindi%20di%20Bintaro.&location=Jani%20Jack&trp=true" target="_blank" class="btn py-3 btn-primary btn-wide-sm btn-sm mt-4"><i aria-hidden="true" class="fa fa-calendar"></i>  Tambah Pengingat</a>
+               <!-- <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pernikahan%20Sandyta%20dan%20Hindi&dates=20220220/20220221&details=Pernikahan%20Sandyta%20dan%20Hindi%20di%20Bintaro.&location=Jani%20Jack&trp=true" target="_blank" class="btn py-3 btn-primary btn-wide-sm btn-sm mt-4"><i aria-hidden="true" class="fa fa-calendar"></i>  Tambah Pengingat</a> -->
 
                </div>
                <!--End row-->
@@ -293,7 +292,7 @@
                   </div>
                   <div class="col-md-5" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                      <small class="text-uppercase mb-5 font-weight-600 text-light upper-letter-space">Kami,</small>
-                     <h1 class="display-2 font-sambung text-white mb-4">Dyta & Hindi</h1>
+                     <h1 class="display-2 font-sambung text-white mb-4">Dawam Raja & Risca Rezky</h1>
                   </div>
                </div>
             </div>
@@ -324,13 +323,13 @@
                      </ol>
                      <div class="carousel-inner">
                         <div class="carousel-item active">
-                           <img class="d-block w-100" style="height: 500px; object-fit:cover;" src="assets/img/foto-bingkai.jpg" alt="Second slide">
+                           <img class="d-block w-100" style="height: 500px; object-fit:cover;" src="assets/img/PicsArt_05-09-11.45.14.jpg" alt="Second slide">
                         </div>
                         <div class="carousel-item">
-                           <img class="d-block w-100" style="height: 500px; object-fit:cover;" src="assets/img/foto-2.jpg" alt="First slide">
+                           <img class="d-block w-100" style="height: 500px; object-fit:cover;" src="assets/img/PicsArt_05-08-02.40.58-min.jpg" alt="First slide">
                         </div>
                         <div class="carousel-item">
-                           <img class="d-block w-100" style="height: 500px; object-fit:cover;" src="assets/img/foto-1.jpg" alt="Third slide">
+                           <img class="d-block w-100" style="height: 500px; object-fit:cover;" src="assets/img/PicsArt_05-09-11.34.49.jpg" alt="Third slide">
                         </div>
                      </div>
                      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -410,9 +409,9 @@
                         <div class="text-white w-md-80 mx-auto my-3" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                            <div id="salinAlamat">
                               <h5 class="text-white font-weight-bold">Alamat Kirim Hadiah</h5>
-                              <p class="mb-0" id="salinAlamat1"><b>Nama Penerima :</b> Araf Kintel <a onclick="copyToClipboard('#salinAlamat1')" class="ml-2" style="cursor: pointer;"><i class="fa fa-copy"></i></a></p>
-                              <p class="mb-0" id="salinAlamat2"><b>Alamat :</b> Jl. Guru Saleh RT06/RW10. Bintaro Permai. Kel Bintaro, Kec Pesanggrahan. Jakarta Selatan. 12330. Notes :</b> Rumah Depan Pos Keamanan, Tembok Ondel Ondel <a onclick="copyToClipboard('#salinAlamat2')" class="ml-2" style="cursor: pointer;"><i class="fa fa-copy"></i></a></p>
-                              <p class="mb-0" id="salinAlamat3"><b>No Telpon :</b> 081513717548 <a onclick="copyToClipboard('#salinAlamat3')" class="ml-2" style="cursor: pointer;"><i class="fa fa-copy"></i></a></p>
+                              <p class="mb-0" id="salinAlamat1"><b>Nama Penerima :</b> Dawam Raja <a onclick="copyToClipboard('#salinAlamat1')" class="ml-2" style="cursor: pointer;"><i class="fa fa-copy"></i></a></p>
+                              <p class="mb-0" id="salinAlamat2"><b>Alamat :</b> Jl. Kembangan Utara No.8, RT.4/RW.1, Kembangan Utara, Kec. Kembangan, Kota Jakarta Barat. 11610. Notes :</b> Kontrakan Royanih, Belakang Bidan Denti Rahmawati <a onclick="copyToClipboard('#salinAlamat2')" class="ml-2" style="cursor: pointer;"><i class="fa fa-copy"></i></a></p>
+                              <p class="mb-0" id="salinAlamat3"><b>No Telpon :</b> 085161061412 <a onclick="copyToClipboard('#salinAlamat3')" class="ml-2" style="cursor: pointer;"><i class="fa fa-copy"></i></a></p>
                            </div>
                         </div><hr>
                         <div class="text-white my-3">
@@ -421,29 +420,31 @@
                               <div class="col-md-6" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                                  <div class="text-white my-3">
                                     <img src="assets/img/mandiri.png" height="80" alt="">
-                                    <p class="mb-0 lead"><span class="font-weight-bold">Mandiri</span> - <span id="salinRek1">1180012557657</span><a onclick="copyToClipboard('#salinRek1')" class="ml-2" style="font-size:16px; cursor: pointer;"><i class="fa fa-copy"></i></a></p>
-                                    <p class="">a/n Sandyta Nurwarohmah Firmansyah</p>
+                                    <p class="mb-0 lead"><span class="font-weight-bold">Mandiri</span> - <span id="salinRek1">1180011130746</span><a onclick="copyToClipboard('#salinRek1')" class="ml-2" style="font-size:16px; cursor: pointer;"><i class="fa fa-copy"></i></a></p>
+                                    <p class="">a/n Dawam Rajaahabibbull</p>
                                  </div>
                               </div>
                               <div class="col-md-6" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                               <div class="text-white my-3">
-                                 <img src="assets/img/bni.png" height="80" alt="">
-                                    <p class="mb-0 lead"><span class="font-weight-bold">BNI</span> - <span id="salinRek2">0583598210</span><a onclick="copyToClipboard('#salinRek2')" class="ml-2" style="font-size:16px; cursor: pointer;"><i class="fa fa-copy"></i></a></p>
-                                    <p class="">a/n Muhammad Alhindi</p>
+                                 <img src="assets/img/Jenius-logo.png" height="80" alt="">
+                                    <p class="mb-0 lead"><span class="font-weight-bold">Jenius/BTPN</span> - <span id="salinRek2">90350037668</span><a onclick="copyToClipboard('#salinRek2')" class="ml-2" style="font-size:16px; cursor: pointer;"><i class="fa fa-copy"></i></a></p>
+                                    <p class="">a/n Dawam Rajaahabibbulloh</p>
                                  </div>
                               </div>
                            </div>
                         </div>
                         <hr>
-                        <div class="text-white my-3" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
+                        <!-- <div class="text-white my-3" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000">
                            <h5 class="text-white font-weight-bold">QRIS</h5>
                            <img src="assets/img/qris-code.png" width="200" alt=""/><br>
                            <a href="assets/img/qris.png" target="_blank" class="btn btn-primary btn-wide-sm btn-sm mt-4"><i aria-hidden="true" class="fa fa-download"></i> Download Gambar QRIS</a>
-                        </div><hr>
+                        </div><hr> -->
                         <div class="text-white my-3" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-offset="-10">
-                           <h5 class="text-white font-weight-bold">Saweria.co</h5>
+                           <h5 class="text-white font-weight-bold">Payment Getway</h5>
                            <!-- <p class="mb-0 lead"></p> -->
-                           <a href="https://saweria.co/WeddingDytaHindi" target="_blank" class="btn btn-primary btn-wide-sm mt-2"><i aria-hidden="true" class="fab fa-telegram"></i> Melalui Saweria</a>
+                           <img src="assets/img/download.png" data-toggle="tooltip" data-placement="top" title="saweria.co/dawamrisca" class="mb-3" width="200" alt="saweria.co/dawamrisca"/><br>
+                           <a href="https://saweria.co/dawamrisca" target="_blank" class="btn btn-primary btn-wide-sm mt-2"><i aria-hidden="true" class="fab fa-telegram"></i> Melalui Saweria</a>
+                           <!-- <a href="assets/img/qris.png" target="_blank" class="btn btn-primary btn-wide-sm btn-sm mt-4"><i aria-hidden="true" class="fa fa-download"></i> Download Gambar QRIS</a> -->
                         </div>
                      </div>
                   </div>
@@ -494,7 +495,7 @@
                      <div class="" style="max-height: 530px; overflow-y:auto">
                         <?php
                         include("etc/koneksi.php"); 
-                        $sql = "SELECT * FROM ucapan";
+                        $sql = "SELECT * FROM ucapan ORDER BY tanggal desc";
                         $query = mysqli_query($db, $sql);
 
                         // $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami";
@@ -623,7 +624,7 @@
                </div>
             </div>
          </section>
-         <h1 class="display-4 font-sambung text-center" style="padding-bottom: 200px;"><a href="https://duniavps.com" target="_blank">Sandyta & Alhindi</a></h1>
+         <h1 class="display-4 font-sambung text-center" style="padding-bottom: 200px;"><a href="alert('Terimakasih sudah berkunjung 😊')" target="_blank">Dawam & Risca</a></h1>
          <!-- <h4 class="">Dyta & Brindil</a></h4> -->
 
          <!--To the top-->
@@ -700,7 +701,7 @@
          */
          // Set the date we're counting down to
          var countdownDate = new Date(
-            "February 22, 2022 09:00:00"
+            "May 15, 2022 09:00:00"
          ).getTime(); /* hrs: min: sec */
 
          // Update the count down every 1 second
