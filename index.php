@@ -4,16 +4,16 @@
       <!-- Metas -->
       <meta charset="utf-8">
       <link rel="shortcut icon" href="assets/img/foto-thumb.jpg">
-      <title>Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo ucwords($parameterUrl); ?> - Wedding Dawam & Risca</title>
+      <title>Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo ucwords(str_replace('-', ' ', $parameterUrl)); ?> - Wedding Dawam & Risca</title>
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <meta content="Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo ucwords($parameterUrl); ?> - Wedding Dawam & Risca" name="author" />
-      <meta name="keywords" content="Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo ucwords($parameterUrl); ?> - Wedding Dawam & Risca">
+      <meta content="Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo ucwords(str_replace('-', ' ', $parameterUrl)); ?> - Wedding Dawam & Risca" name="author" />
+      <meta name="keywords" content="Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo ucwords(str_replace('-', ' ', $parameterUrl)); ?> - Wedding Dawam & Risca">
       <meta name="description" content="Dimohon Kehadirannya Bapak / Ibu untuk Menghadiri Acara Pernikahan Kami Yang Berlangsung Pada Hari Minggu, 20 Febuari 2022.">
       <meta property="og:type" content="website">
       <meta property='og:image' content="assets/img/foto-thumb.jpg" />
-      <meta property='og:title' content='Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo ucwords($parameterUrl); ?> - Wedding Dawam & Risca' />
+      <meta property='og:title' content='Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo ucwords(str_replace('-', ' ', $parameterUrl)); ?> - Wedding Dawam & Risca' />
       <meta property="og:url" content="">
       <meta property='og:description' content='Dimohon Kehadirannya Bapak / Ibu untuk Menghadiri Acara Pernikahan Kami Yang Berlangsung Pada Hari Minggu, 20 Febuari 2022.' />
       <link rel="canonical" href="">
@@ -55,7 +55,7 @@
                      <h3 class="text-white">
                         <?php
                            $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami";
-                           echo ucwords($parameterUrl);
+                           echo ucwords(str_replace('-', ' ', $parameterUrl));
                         ?>
                      </h3>
                      <div class="song mb-5 pb-5">
@@ -115,7 +115,7 @@
                      <h3 class="text-white">
                         <?php
                            $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami";
-                           echo ucwords($parameterUrl);
+                           echo ucwords(str_replace('-', ' ', $parameterUrl));
                         ?>
                      </h3>
                      <a href="#pembukaan" class="btn btn-primary btn-wide-sm btn-sm mt-4"><i aria-hidden="true" class="fas fa-arrow-down"></i>  Lanjutkan</a>
@@ -465,7 +465,7 @@
                      </div>
                      <!--End row-->
                      <form method="post" action="add.php">
-                           <input name="pengirim" type="text" hidden class="form-control form-control-lg" value="<?php echo ucwords($parameterUrl)?>">
+                           <input name="pengirim" type="text" hidden class="form-control form-control-lg" value="<?php echo ucwords(str_replace('-', ' ', $parameterUrl))?>">
                         <div class="form-group">
                            <label >Nama</label>
                            <input name="names" type="text" class="form-control form-control-lg" placeholder="Nama Lengkap / Panggilan" required>
@@ -505,7 +505,7 @@
                         $query = mysqli_query($db, $sql);
 
                         // $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami";
-                        //    echo ucwords($parameterUrl);
+                        //    echo ucwords(str_replace('-', ' ', $parameterUrl));
 
                         while($siswa = mysqli_fetch_array($query)){
                            echo "<div class='row card my-2 mx-1 p-3 mb-0'>";
@@ -764,7 +764,7 @@
 
          function togglePlay() {
             // Swal.fire({
-            //    title: "Hai <?= ucwords($parameterUrl) ?>, Selamat Berkunjung!",
+            //    title: "Hai <?= ucwords(str_replace('-', ' ', $parameterUrl)) ?>, Selamat Berkunjung!",
             //    text: 'Undangan bisa dibuka tanggal 15 Mei 2022, Dituggu ya🥰',
             //    icon: 'info',
             //    confirmButtonText: 'Atur Pengingat!'
