@@ -4,16 +4,16 @@
       <!-- Metas -->
       <meta charset="utf-8">
       <link rel="shortcut icon" href="assets/img/foto-thumb.jpg">
-      <title>Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo ucwords($parameterUrl); ?> - Wedding Sandyta & Brindil</title>
+      <title>Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo ucwords($parameterUrl); ?> - Wedding Dawam & Risca</title>
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <meta content="Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo ucwords($parameterUrl); ?> - Wedding Sandyta & Brindil" name="author" />
-      <meta name="keywords" content="Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo ucwords($parameterUrl); ?> - Wedding Sandyta & Brindil">
+      <meta content="Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo ucwords($parameterUrl); ?> - Wedding Dawam & Risca" name="author" />
+      <meta name="keywords" content="Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo ucwords($parameterUrl); ?> - Wedding Dawam & Risca">
       <meta name="description" content="Dimohon Kehadirannya Bapak / Ibu untuk Menghadiri Acara Pernikahan Kami Yang Berlangsung Pada Hari Minggu, 20 Febuari 2022.">
       <meta property="og:type" content="website">
       <meta property='og:image' content="assets/img/foto-thumb.jpg" />
-      <meta property='og:title' content='Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo ucwords($parameterUrl); ?> - Wedding Sandyta & Brindil' />
+      <meta property='og:title' content='Undangan Untuk <?php $parameterUrl = (!empty($_GET['to'])) ? $_GET['to'] : "Saudara / Teman Kami"; echo ucwords($parameterUrl); ?> - Wedding Dawam & Risca' />
       <meta property="og:url" content="">
       <meta property='og:description' content='Dimohon Kehadirannya Bapak / Ibu untuk Menghadiri Acara Pernikahan Kami Yang Berlangsung Pada Hari Minggu, 20 Febuari 2022.' />
       <link rel="canonical" href="">
