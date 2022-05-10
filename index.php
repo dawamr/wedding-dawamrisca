@@ -323,13 +323,19 @@
                      </ol>
                      <div class="carousel-inner">
                         <div class="carousel-item active">
-                           <img class="d-block w-100" style="height: 500px; object-fit:cover;" src="assets/img/PicsArt_05-09-11.45.14.jpg" alt="Second slide">
+                           <img class="d-block w-100" style="height: 500px; object-fit:cover;" src="assets/img/PicsArt_05-09-11.45.14.jpg" alt="1 slide">
                         </div>
                         <div class="carousel-item">
-                           <img class="d-block w-100" style="height: 500px; object-fit:cover;" src="assets/img/PicsArt_05-08-02.40.58-min.jpg" alt="First slide">
+                           <img class="d-block w-100" style="height: 500px; object-fit:cover;" src="assets/img/PicsArt_05-08-02.40.58-min.jpg" alt="2 slide">
                         </div>
                         <div class="carousel-item">
-                           <img class="d-block w-100" style="height: 500px; object-fit:cover;" src="assets/img/PicsArt_05-10-05.04.02.jpg" alt="Third slide">
+                           <img class="d-block w-100" style="height: 500px; object-fit:cover;" src="assets/img/PicsArt_05-10-05.04.02.jpg" alt="3 slide">
+                        </div>
+                        <div class="carousel-item">
+                           <img class="d-block w-100" style="height: 500px; object-fit:cover;" src="assets/img/PicsArt_05-10-06.38.08.jpg" alt="4 slide">
+                        </div>
+                        <div class="carousel-item">
+                           <img class="d-block w-100" style="height: 500px; object-fit:cover;" src="assets/img/XiaoYing_Video_1652182852160.gif" alt="6 slide">
                         </div>
                      </div>
                      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
